@@ -23,8 +23,10 @@ idea {
 }
 
 task lint(type: Exec) {
-    commandLine 'chef', 'exec', 'foodcritic', 'provision-package/chef/cookbooks/appserver', '-f', 'any'
+    commandLine 'chef', 'exec', 'foodcritic', '.', '-f', 'any'
 }
+
+task preCommit(dependsOn: lint)
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.3'
