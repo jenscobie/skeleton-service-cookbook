@@ -1,0 +1,31 @@
+apply plugin: 'idea'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+idea {
+    project {
+        ipr {
+            withXml { provider ->
+                provider.node.component
+                        .find { it.@name == 'VcsDirectoryMappings' }
+                        .mapping.@vcs = 'Git'
+            }
+        }
+    }
+}
+
+task lint(type: Exec) {
+    commandLine 'chef', 'exec', 'foodcritic', 'provision-package/chef/cookbooks/appserver', '-f', 'any'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3'
+}
