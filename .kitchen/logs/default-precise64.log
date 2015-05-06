@@ -1,1354 +1,0 @@
-I, [2015-05-06T10:25:16.628069 #18929]  INFO -- default-precise64: -----> Creating <default-precise64>...
-I, [2015-05-06T10:25:18.505048 #18929]  INFO -- default-precise64: Bringing machine 'default' up with 'virtualbox' provider...
-I, [2015-05-06T10:25:18.695681 #18929]  INFO -- default-precise64: ==> default: Importing base box 'default'...
-I, [2015-05-06T10:25:50.491764 #18929]  INFO -- default-precise64: [KProgress: 10%[KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
-I, [2015-05-06T10:25:51.160389 #18929]  INFO -- default-precise64: ==> default: Setting the name of the VM: kitchen-skeleton-service-cookbook-default-precise64_default_1430933151124_99545
-I, [2015-05-06T10:25:51.456227 #18929]  INFO -- default-precise64: ==> default: Fixed port collision for 22 => 2222. Now on port 2200.
-I, [2015-05-06T10:25:51.512552 #18929]  INFO -- default-precise64: ==> default: Clearing any previously set network interfaces...
-I, [2015-05-06T10:25:51.557364 #18929]  INFO -- default-precise64: ==> default: Preparing network interfaces based on configuration...
-I, [2015-05-06T10:25:51.557744 #18929]  INFO -- default-precise64:     default: Adapter 1: nat
-I, [2015-05-06T10:25:51.604414 #18929]  INFO -- default-precise64: ==> default: Forwarding ports...
-I, [2015-05-06T10:25:51.669335 #18929]  INFO -- default-precise64:     default: 22 => 2200 (adapter 1)
-I, [2015-05-06T10:25:51.798461 #18929]  INFO -- default-precise64: ==> default: Booting VM...
-I, [2015-05-06T10:25:52.123825 #18929]  INFO -- default-precise64: ==> default: Waiting for machine to boot. This may take a few minutes...
-I, [2015-05-06T10:25:52.479239 #18929]  INFO -- default-precise64:     default: SSH address: 127.0.0.1:2200
-I, [2015-05-06T10:25:52.479432 #18929]  INFO -- default-precise64:     default: SSH username: vagrant
-I, [2015-05-06T10:25:52.479565 #18929]  INFO -- default-precise64:     default: SSH auth method: private key
-I, [2015-05-06T10:26:07.631786 #18929]  INFO -- default-precise64:     default: Warning: Connection timeout. Retrying...
-I, [2015-05-06T10:26:07.863173 #18929]  INFO -- default-precise64:     default: Warning: Remote connection disconnect. Retrying...
-I, [2015-05-06T10:26:08.967862 #18929]  INFO -- default-precise64:     default: 
-I, [2015-05-06T10:26:08.967936 #18929]  INFO -- default-precise64:     default: Vagrant insecure key detected. Vagrant will automatically replace
-I, [2015-05-06T10:26:08.967974 #18929]  INFO -- default-precise64:     default: this with a newly generated keypair for better security.
-I, [2015-05-06T10:26:10.298960 #18929]  INFO -- default-precise64:     default: 
-I, [2015-05-06T10:26:10.299047 #18929]  INFO -- default-precise64:     default: Inserting generated public key within guest...
-I, [2015-05-06T10:26:10.657000 #18929]  INFO -- default-precise64:     default: Removing insecure key from the guest if its present...
-I, [2015-05-06T10:26:10.981877 #18929]  INFO -- default-precise64:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
-I, [2015-05-06T10:26:12.145360 #18929]  INFO -- default-precise64: ==> default: Machine booted and ready!
-I, [2015-05-06T10:26:12.145724 #18929]  INFO -- default-precise64: ==> default: Checking for guest additions in VM...
-I, [2015-05-06T10:26:12.190203 #18929]  INFO -- default-precise64:     default: The guest additions on this VM do not match the installed version of
-I, [2015-05-06T10:26:12.190289 #18929]  INFO -- default-precise64:     default: VirtualBox! In most cases this is fine, but in rare cases it can
-I, [2015-05-06T10:26:12.190323 #18929]  INFO -- default-precise64:     default: prevent things such as shared folders from working properly. If you see
-I, [2015-05-06T10:26:12.190352 #18929]  INFO -- default-precise64:     default: shared folder errors, please make sure the guest additions within the
-I, [2015-05-06T10:26:12.190423 #18929]  INFO -- default-precise64:     default: virtual machine match the version of VirtualBox you have installed on
-I, [2015-05-06T10:26:12.190492 #18929]  INFO -- default-precise64:     default: your host and reload your VM.
-I, [2015-05-06T10:26:12.190525 #18929]  INFO -- default-precise64:     default: 
-I, [2015-05-06T10:26:12.190580 #18929]  INFO -- default-precise64:     default: Guest Additions Version: 4.2.6
-I, [2015-05-06T10:26:12.190661 #18929]  INFO -- default-precise64:     default: VirtualBox Version: 4.3
-I, [2015-05-06T10:26:12.191061 #18929]  INFO -- default-precise64: ==> default: Setting hostname...
-I, [2015-05-06T10:26:19.174943 #18929]  INFO -- default-precise64: ==> default: Machine not provisioning because `--no-provision` is specified.
-I, [2015-05-06T10:26:20.938340 #18929]  INFO -- default-precise64: Vagrant instance <default-precise64> created.
-I, [2015-05-06T10:26:20.947936 #18929]  INFO -- default-precise64: Finished creating <default-precise64> (1m4.31s).
-I, [2015-05-06T10:26:20.948559 #18929]  INFO -- default-precise64: -----> Converging <default-precise64>...
-I, [2015-05-06T10:26:20.950907 #18929]  INFO -- default-precise64: Preparing files for transfer
-I, [2015-05-06T10:26:20.951062 #18929]  INFO -- default-precise64: Preparing dna.json
-I, [2015-05-06T10:26:20.951837 #18929]  INFO -- default-precise64: Preparing cookbooks from project directory
-I, [2015-05-06T10:26:20.973271 #18929]  INFO -- default-precise64: Removing non-cookbook files before transfer
-I, [2015-05-06T10:26:20.979153 #18929]  INFO -- default-precise64: Preparing solo.rb
-I, [2015-05-06T10:26:21.045123 #18929]  INFO -- default-precise64: -----> Chef Omnibus installation detected (install only if missing)
-I, [2015-05-06T10:26:21.061554 #18929]  INFO -- default-precise64: Transferring files to <default-precise64>
-I, [2015-05-06T10:26:22.564157 #18929]  INFO -- default-precise64: [2015-05-06T13:26:22-04:00] WARN: 
-I, [2015-05-06T10:26:22.564216 #18929]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:26:22.564269 #18929]  INFO -- default-precise64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
-I, [2015-05-06T10:26:22.564287 #18929]  INFO -- default-precise64: encrypted, but chef is not able to detect forged replies or man in the middle
-I, [2015-05-06T10:26:22.564302 #18929]  INFO -- default-precise64: attacks.
-I, [2015-05-06T10:26:22.564317 #18929]  INFO -- default-precise64: 
-I, [2015-05-06T10:26:22.564331 #18929]  INFO -- default-precise64: To fix this issue add an entry like this to your configuration file:
-I, [2015-05-06T10:26:22.564346 #18929]  INFO -- default-precise64: 
-I, [2015-05-06T10:26:22.564360 #18929]  INFO -- default-precise64: ```
-I, [2015-05-06T10:26:22.564413 #18929]  INFO -- default-precise64:   # Verify all HTTPS connections (recommended)
-I, [2015-05-06T10:26:22.564428 #18929]  INFO -- default-precise64:   ssl_verify_mode :verify_peer
-I, [2015-05-06T10:26:22.564441 #18929]  INFO -- default-precise64: 
-I, [2015-05-06T10:26:22.564455 #18929]  INFO -- default-precise64:   # OR, Verify only connections to chef-server
-I, [2015-05-06T10:26:22.564469 #18929]  INFO -- default-precise64:   verify_api_cert true
-I, [2015-05-06T10:26:22.564482 #18929]  INFO -- default-precise64: ```
-I, [2015-05-06T10:26:22.564496 #18929]  INFO -- default-precise64: 
-I, [2015-05-06T10:26:22.564510 #18929]  INFO -- default-precise64: To check your SSL configuration, or troubleshoot errors, you can use the
-I, [2015-05-06T10:26:22.564525 #18929]  INFO -- default-precise64: `knife ssl check` command like so:
-I, [2015-05-06T10:26:22.564538 #18929]  INFO -- default-precise64: 
-I, [2015-05-06T10:26:22.564552 #18929]  INFO -- default-precise64: ```
-I, [2015-05-06T10:26:22.564590 #18929]  INFO -- default-precise64:   knife ssl check -c /tmp/kitchen/solo.rb
-I, [2015-05-06T10:26:22.564604 #18929]  INFO -- default-precise64: ```
-I, [2015-05-06T10:26:22.564618 #18929]  INFO -- default-precise64: 
-I, [2015-05-06T10:26:22.564632 #18929]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:26:22.564664 #18929]  INFO -- default-precise64: 
-I, [2015-05-06T10:26:22.564680 #18929]  INFO -- default-precise64: Starting Chef Client, version 11.12.2
-I, [2015-05-06T10:26:29.518461 #18929]  INFO -- default-precise64: Compiling Cookbooks...
-I, [2015-05-06T10:26:29.518512 #18929]  INFO -- default-precise64: 
-I, [2015-05-06T10:26:29.518529 #18929]  INFO -- default-precise64: Running handlers:
-I, [2015-05-06T10:26:29.518543 #18929]  INFO -- default-precise64: [2015-05-06T13:26:29-04:00] ERROR: Running exception handlers
-I, [2015-05-06T10:26:29.518557 #18929]  INFO -- default-precise64: Running handlers complete
-I, [2015-05-06T10:26:29.518570 #18929]  INFO -- default-precise64: [2015-05-06T13:26:29-04:00] ERROR: Exception handlers complete
-I, [2015-05-06T10:26:29.518584 #18929]  INFO -- default-precise64: [2015-05-06T13:26:29-04:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
-I, [2015-05-06T10:26:29.518596 #18929]  INFO -- default-precise64: Chef Client failed. 0 resources updated in 6.969384618 seconds
-I, [2015-05-06T10:26:29.538544 #18929]  INFO -- default-precise64: [2015-05-06T13:26:29-04:00] ERROR: Cookbook skeleton-service-cookbook not found. If you're loading skeleton-service-cookbook from another cookbook, make sure you configure the dependency in your metadata
-I, [2015-05-06T10:26:29.568643 #18929]  INFO -- default-precise64: [2015-05-06T13:26:29-04:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
-E, [2015-05-06T10:26:29.592580 #18929] ERROR -- default-precise64: Converge failed on instance <default-precise64>.
-E, [2015-05-06T10:26:29.592712 #18929] ERROR -- default-precise64: ------Exception-------
-E, [2015-05-06T10:26:29.592742 #18929] ERROR -- default-precise64: Class: Kitchen::ActionFailed
-E, [2015-05-06T10:26:29.592764 #18929] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:26:29.592787 #18929] ERROR -- default-precise64: ---Nested Exception---
-E, [2015-05-06T10:26:29.592807 #18929] ERROR -- default-precise64: Class: Kitchen::SSHFailed
-E, [2015-05-06T10:26:29.592819 #18929] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:26:29.592842 #18929] ERROR -- default-precise64: ------Backtrace-------
-E, [2015-05-06T10:26:29.592852 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:152:in `rescue in run_remote'
-E, [2015-05-06T10:26:29.592863 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:148:in `run_remote'
-E, [2015-05-06T10:26:29.592873 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:50:in `block in converge'
-E, [2015-05-06T10:26:29.592883 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:70:in `initialize'
-E, [2015-05-06T10:26:29.592894 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `new'
-E, [2015-05-06T10:26:29.592904 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `converge'
-E, [2015-05-06T10:26:29.592947 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `public_send'
-E, [2015-05-06T10:26:29.592960 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `block in perform_action'
-E, [2015-05-06T10:26:29.592971 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `call'
-E, [2015-05-06T10:26:29.592982 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `synchronize_or_call'
-E, [2015-05-06T10:26:29.593000 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:381:in `block in action'
-E, [2015-05-06T10:26:29.593012 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
-E, [2015-05-06T10:26:29.593023 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:380:in `action'
-E, [2015-05-06T10:26:29.593033 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `perform_action'
-E, [2015-05-06T10:26:29.593043 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:312:in `converge_action'
-E, [2015-05-06T10:26:29.593053 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:292:in `block in transition_to'
-E, [2015-05-06T10:26:29.593065 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `each'
-E, [2015-05-06T10:26:29.593075 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `transition_to'
-E, [2015-05-06T10:26:29.593085 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:130:in `converge'
-E, [2015-05-06T10:26:29.593096 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `public_send'
-E, [2015-05-06T10:26:29.593106 #18929] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
-E, [2015-05-06T10:26:29.593131 #18929] ERROR -- default-precise64: ----------------------
-I, [2015-05-06T10:28:14.481169 #19048]  INFO -- default-precise64: -----> Converging <default-precise64>...
-I, [2015-05-06T10:28:14.482222 #19048]  INFO -- default-precise64: Preparing files for transfer
-I, [2015-05-06T10:28:14.482314 #19048]  INFO -- default-precise64: Preparing dna.json
-I, [2015-05-06T10:28:14.482739 #19048]  INFO -- default-precise64: Preparing cookbooks from project directory
-I, [2015-05-06T10:28:14.502876 #19048]  INFO -- default-precise64: Preparing current project directory as a cookbook
-I, [2015-05-06T10:28:14.521432 #19048]  INFO -- default-precise64: Removing non-cookbook files before transfer
-I, [2015-05-06T10:28:14.528117 #19048]  INFO -- default-precise64: Preparing solo.rb
-I, [2015-05-06T10:28:14.584080 #19048]  INFO -- default-precise64: -----> Chef Omnibus installation detected (install only if missing)
-I, [2015-05-06T10:28:14.603474 #19048]  INFO -- default-precise64: Transferring files to <default-precise64>
-I, [2015-05-06T10:28:15.724223 #19048]  INFO -- default-precise64: [2015-05-06T13:28:15-04:00] WARN: 
-I, [2015-05-06T10:28:15.724285 #19048]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:28:15.724311 #19048]  INFO -- default-precise64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
-I, [2015-05-06T10:28:15.724329 #19048]  INFO -- default-precise64: encrypted, but chef is not able to detect forged replies or man in the middle
-I, [2015-05-06T10:28:15.724345 #19048]  INFO -- default-precise64: attacks.
-I, [2015-05-06T10:28:15.724368 #19048]  INFO -- default-precise64: 
-I, [2015-05-06T10:28:15.724382 #19048]  INFO -- default-precise64: To fix this issue add an entry like this to your configuration file:
-I, [2015-05-06T10:28:15.724395 #19048]  INFO -- default-precise64: 
-I, [2015-05-06T10:28:15.724408 #19048]  INFO -- default-precise64: ```
-I, [2015-05-06T10:28:15.724421 #19048]  INFO -- default-precise64:   # Verify all HTTPS connections (recommended)
-I, [2015-05-06T10:28:15.724434 #19048]  INFO -- default-precise64:   ssl_verify_mode :verify_peer
-I, [2015-05-06T10:28:15.724446 #19048]  INFO -- default-precise64: 
-I, [2015-05-06T10:28:15.724457 #19048]  INFO -- default-precise64:   # OR, Verify only connections to chef-server
-I, [2015-05-06T10:28:15.724496 #19048]  INFO -- default-precise64:   verify_api_cert true
-I, [2015-05-06T10:28:15.724511 #19048]  INFO -- default-precise64: ```
-I, [2015-05-06T10:28:15.724524 #19048]  INFO -- default-precise64: 
-I, [2015-05-06T10:28:15.724535 #19048]  INFO -- default-precise64: To check your SSL configuration, or troubleshoot errors, you can use the
-I, [2015-05-06T10:28:15.724548 #19048]  INFO -- default-precise64: `knife ssl check` command like so:
-I, [2015-05-06T10:28:15.724560 #19048]  INFO -- default-precise64: 
-I, [2015-05-06T10:28:15.724571 #19048]  INFO -- default-precise64: ```
-I, [2015-05-06T10:28:15.724582 #19048]  INFO -- default-precise64:   knife ssl check -c /tmp/kitchen/solo.rb
-I, [2015-05-06T10:28:15.724594 #19048]  INFO -- default-precise64: ```
-I, [2015-05-06T10:28:15.724605 #19048]  INFO -- default-precise64: 
-I, [2015-05-06T10:28:15.724617 #19048]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:28:15.724647 #19048]  INFO -- default-precise64: 
-I, [2015-05-06T10:28:15.724658 #19048]  INFO -- default-precise64: Starting Chef Client, version 11.12.2
-I, [2015-05-06T10:28:22.538956 #19048]  INFO -- default-precise64: Compiling Cookbooks...
-I, [2015-05-06T10:28:22.539607 #19048]  INFO -- default-precise64: 
-I, [2015-05-06T10:28:22.539640 #19048]  INFO -- default-precise64: ================================================================================
-I, [2015-05-06T10:28:22.539656 #19048]  INFO -- default-precise64: Recipe Compile Error
-I, [2015-05-06T10:28:22.539682 #19048]  INFO -- default-precise64: ================================================================================
-I, [2015-05-06T10:28:22.539694 #19048]  INFO -- default-precise64: 
-I, [2015-05-06T10:28:22.539706 #19048]  INFO -- default-precise64: Chef::Exceptions::RecipeNotFound
-I, [2015-05-06T10:28:22.539717 #19048]  INFO -- default-precise64: --------------------------------
-I, [2015-05-06T10:28:22.539728 #19048]  INFO -- default-precise64: could not find recipe appserver for cookbook skeleton-service-cookbook
-I, [2015-05-06T10:28:22.539740 #19048]  INFO -- default-precise64: 
-I, [2015-05-06T10:28:22.539750 #19048]  INFO -- default-precise64: 
-I, [2015-05-06T10:28:22.539761 #19048]  INFO -- default-precise64: Running handlers:
-I, [2015-05-06T10:28:22.540699 #19048]  INFO -- default-precise64: [2015-05-06T13:28:22-04:00] ERROR: Running exception handlers
-I, [2015-05-06T10:28:22.540758 #19048]  INFO -- default-precise64: Running handlers complete
-I, [2015-05-06T10:28:22.540774 #19048]  INFO -- default-precise64: [2015-05-06T13:28:22-04:00] ERROR: Exception handlers complete
-I, [2015-05-06T10:28:22.540788 #19048]  INFO -- default-precise64: [2015-05-06T13:28:22-04:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
-I, [2015-05-06T10:28:22.540800 #19048]  INFO -- default-precise64: Chef Client failed. 0 resources updated in 6.824014342 seconds
-I, [2015-05-06T10:28:22.551647 #19048]  INFO -- default-precise64: [2015-05-06T13:28:22-04:00] ERROR: could not find recipe appserver for cookbook skeleton-service-cookbook
-I, [2015-05-06T10:28:22.589083 #19048]  INFO -- default-precise64: [2015-05-06T13:28:22-04:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
-E, [2015-05-06T10:28:22.620959 #19048] ERROR -- default-precise64: Converge failed on instance <default-precise64>.
-E, [2015-05-06T10:28:22.621131 #19048] ERROR -- default-precise64: ------Exception-------
-E, [2015-05-06T10:28:22.621152 #19048] ERROR -- default-precise64: Class: Kitchen::ActionFailed
-E, [2015-05-06T10:28:22.621164 #19048] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:28:22.621176 #19048] ERROR -- default-precise64: ---Nested Exception---
-E, [2015-05-06T10:28:22.621186 #19048] ERROR -- default-precise64: Class: Kitchen::SSHFailed
-E, [2015-05-06T10:28:22.621203 #19048] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:28:22.621215 #19048] ERROR -- default-precise64: ------Backtrace-------
-E, [2015-05-06T10:28:22.621224 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:152:in `rescue in run_remote'
-E, [2015-05-06T10:28:22.621233 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:148:in `run_remote'
-E, [2015-05-06T10:28:22.621242 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:50:in `block in converge'
-E, [2015-05-06T10:28:22.621251 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:70:in `initialize'
-E, [2015-05-06T10:28:22.621260 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `new'
-E, [2015-05-06T10:28:22.621271 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `converge'
-E, [2015-05-06T10:28:22.621281 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `public_send'
-E, [2015-05-06T10:28:22.621290 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `block in perform_action'
-E, [2015-05-06T10:28:22.621298 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `call'
-E, [2015-05-06T10:28:22.621307 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `synchronize_or_call'
-E, [2015-05-06T10:28:22.621332 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:381:in `block in action'
-E, [2015-05-06T10:28:22.621341 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
-E, [2015-05-06T10:28:22.621350 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:380:in `action'
-E, [2015-05-06T10:28:22.621359 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `perform_action'
-E, [2015-05-06T10:28:22.621370 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:312:in `converge_action'
-E, [2015-05-06T10:28:22.621379 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:292:in `block in transition_to'
-E, [2015-05-06T10:28:22.621388 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `each'
-E, [2015-05-06T10:28:22.621397 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `transition_to'
-E, [2015-05-06T10:28:22.621405 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:130:in `converge'
-E, [2015-05-06T10:28:22.621414 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `public_send'
-E, [2015-05-06T10:28:22.621423 #19048] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
-E, [2015-05-06T10:28:22.621432 #19048] ERROR -- default-precise64: ----------------------
-I, [2015-05-06T10:29:42.057397 #19066]  INFO -- default-precise64: -----> Converging <default-precise64>...
-I, [2015-05-06T10:29:42.057996 #19066]  INFO -- default-precise64: Preparing files for transfer
-I, [2015-05-06T10:29:42.058062 #19066]  INFO -- default-precise64: Preparing dna.json
-I, [2015-05-06T10:29:42.058412 #19066]  INFO -- default-precise64: Preparing cookbooks from project directory
-I, [2015-05-06T10:29:42.078108 #19066]  INFO -- default-precise64: Preparing current project directory as a cookbook
-I, [2015-05-06T10:29:42.096436 #19066]  INFO -- default-precise64: Removing non-cookbook files before transfer
-I, [2015-05-06T10:29:42.105025 #19066]  INFO -- default-precise64: Preparing solo.rb
-I, [2015-05-06T10:29:42.158968 #19066]  INFO -- default-precise64: -----> Chef Omnibus installation detected (install only if missing)
-I, [2015-05-06T10:29:42.175761 #19066]  INFO -- default-precise64: Transferring files to <default-precise64>
-I, [2015-05-06T10:29:43.079877 #19066]  INFO -- default-precise64: [2015-05-06T13:29:43-04:00] WARN: 
-I, [2015-05-06T10:29:43.079943 #19066]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:29:43.079972 #19066]  INFO -- default-precise64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
-I, [2015-05-06T10:29:43.079998 #19066]  INFO -- default-precise64: encrypted, but chef is not able to detect forged replies or man in the middle
-I, [2015-05-06T10:29:43.080023 #19066]  INFO -- default-precise64: attacks.
-I, [2015-05-06T10:29:43.080046 #19066]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:43.080069 #19066]  INFO -- default-precise64: To fix this issue add an entry like this to your configuration file:
-I, [2015-05-06T10:29:43.080091 #19066]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:43.080112 #19066]  INFO -- default-precise64: ```
-I, [2015-05-06T10:29:43.080135 #19066]  INFO -- default-precise64:   # Verify all HTTPS connections (recommended)
-I, [2015-05-06T10:29:43.080157 #19066]  INFO -- default-precise64:   ssl_verify_mode :verify_peer
-I, [2015-05-06T10:29:43.080178 #19066]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:43.080202 #19066]  INFO -- default-precise64:   # OR, Verify only connections to chef-server
-I, [2015-05-06T10:29:43.080222 #19066]  INFO -- default-precise64:   verify_api_cert true
-I, [2015-05-06T10:29:43.080243 #19066]  INFO -- default-precise64: ```
-I, [2015-05-06T10:29:43.080265 #19066]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:43.080287 #19066]  INFO -- default-precise64: To check your SSL configuration, or troubleshoot errors, you can use the
-I, [2015-05-06T10:29:43.080319 #19066]  INFO -- default-precise64: `knife ssl check` command like so:
-I, [2015-05-06T10:29:43.080343 #19066]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:43.080364 #19066]  INFO -- default-precise64: ```
-I, [2015-05-06T10:29:43.080385 #19066]  INFO -- default-precise64:   knife ssl check -c /tmp/kitchen/solo.rb
-I, [2015-05-06T10:29:43.080407 #19066]  INFO -- default-precise64: ```
-I, [2015-05-06T10:29:43.080428 #19066]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:43.080451 #19066]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:29:43.080473 #19066]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:43.080496 #19066]  INFO -- default-precise64: Starting Chef Client, version 11.12.2
-I, [2015-05-06T10:29:49.834526 #19066]  INFO -- default-precise64: Compiling Cookbooks...
-I, [2015-05-06T10:29:49.834582 #19066]  INFO -- default-precise64: Converging 0 resources
-I, [2015-05-06T10:29:49.834600 #19066]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:49.834615 #19066]  INFO -- default-precise64: Running handlers:
-I, [2015-05-06T10:29:49.834630 #19066]  INFO -- default-precise64: Running handlers complete
-I, [2015-05-06T10:29:49.834644 #19066]  INFO -- default-precise64: Chef Client finished, 0/0 resources updated in 6.760488627 seconds
-I, [2015-05-06T10:29:49.919416 #19066]  INFO -- default-precise64: Finished converging <default-precise64> (0m7.86s).
-I, [2015-05-06T10:29:56.916944 #19081]  INFO -- default-precise64: -----> Converging <default-precise64>...
-I, [2015-05-06T10:29:56.918053 #19081]  INFO -- default-precise64: Preparing files for transfer
-I, [2015-05-06T10:29:56.918175 #19081]  INFO -- default-precise64: Preparing dna.json
-I, [2015-05-06T10:29:56.918554 #19081]  INFO -- default-precise64: Preparing cookbooks from project directory
-I, [2015-05-06T10:29:56.926350 #19081]  INFO -- default-precise64: Preparing current project directory as a cookbook
-I, [2015-05-06T10:29:56.940267 #19081]  INFO -- default-precise64: Removing non-cookbook files before transfer
-I, [2015-05-06T10:29:56.946477 #19081]  INFO -- default-precise64: Preparing solo.rb
-I, [2015-05-06T10:29:56.997359 #19081]  INFO -- default-precise64: -----> Chef Omnibus installation detected (install only if missing)
-I, [2015-05-06T10:29:57.011927 #19081]  INFO -- default-precise64: Transferring files to <default-precise64>
-I, [2015-05-06T10:29:57.930678 #19081]  INFO -- default-precise64: [2015-05-06T13:29:58-04:00] WARN: 
-I, [2015-05-06T10:29:57.930752 #19081]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:29:57.930784 #19081]  INFO -- default-precise64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
-I, [2015-05-06T10:29:57.930810 #19081]  INFO -- default-precise64: encrypted, but chef is not able to detect forged replies or man in the middle
-I, [2015-05-06T10:29:57.930833 #19081]  INFO -- default-precise64: attacks.
-I, [2015-05-06T10:29:57.930891 #19081]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:57.930912 #19081]  INFO -- default-precise64: To fix this issue add an entry like this to your configuration file:
-I, [2015-05-06T10:29:57.930933 #19081]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:57.930954 #19081]  INFO -- default-precise64: ```
-I, [2015-05-06T10:29:57.930975 #19081]  INFO -- default-precise64:   # Verify all HTTPS connections (recommended)
-I, [2015-05-06T10:29:57.930997 #19081]  INFO -- default-precise64:   ssl_verify_mode :verify_peer
-I, [2015-05-06T10:29:57.931018 #19081]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:57.931038 #19081]  INFO -- default-precise64:   # OR, Verify only connections to chef-server
-I, [2015-05-06T10:29:57.931058 #19081]  INFO -- default-precise64:   verify_api_cert true
-I, [2015-05-06T10:29:57.931078 #19081]  INFO -- default-precise64: ```
-I, [2015-05-06T10:29:57.931099 #19081]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:57.931119 #19081]  INFO -- default-precise64: To check your SSL configuration, or troubleshoot errors, you can use the
-I, [2015-05-06T10:29:57.931141 #19081]  INFO -- default-precise64: `knife ssl check` command like so:
-I, [2015-05-06T10:29:57.931162 #19081]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:57.931182 #19081]  INFO -- default-precise64: ```
-I, [2015-05-06T10:29:57.931217 #19081]  INFO -- default-precise64:   knife ssl check -c /tmp/kitchen/solo.rb
-I, [2015-05-06T10:29:57.931239 #19081]  INFO -- default-precise64: ```
-I, [2015-05-06T10:29:57.931259 #19081]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:57.931280 #19081]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:29:57.931303 #19081]  INFO -- default-precise64: 
-I, [2015-05-06T10:29:57.931885 #19081]  INFO -- default-precise64: Starting Chef Client, version 11.12.2
-I, [2015-05-06T10:30:04.701967 #19081]  INFO -- default-precise64: Compiling Cookbooks...
-I, [2015-05-06T10:30:04.702744 #19081]  INFO -- default-precise64: 
-I, [2015-05-06T10:30:04.702787 #19081]  INFO -- default-precise64: ================================================================================
-I, [2015-05-06T10:30:04.702817 #19081]  INFO -- default-precise64: Recipe Compile Error
-I, [2015-05-06T10:30:04.702841 #19081]  INFO -- default-precise64: ================================================================================
-I, [2015-05-06T10:30:04.702865 #19081]  INFO -- default-precise64: 
-I, [2015-05-06T10:30:04.702889 #19081]  INFO -- default-precise64: Chef::Exceptions::RecipeNotFound
-I, [2015-05-06T10:30:04.702912 #19081]  INFO -- default-precise64: --------------------------------
-I, [2015-05-06T10:30:04.702986 #19081]  INFO -- default-precise64: could not find recipe appserver for cookbook skeleton-service-cookbook
-I, [2015-05-06T10:30:04.703032 #19081]  INFO -- default-precise64: 
-I, [2015-05-06T10:30:04.703429 #19081]  INFO -- default-precise64: 
-I, [2015-05-06T10:30:04.703460 #19081]  INFO -- default-precise64: Running handlers:
-I, [2015-05-06T10:30:04.703480 #19081]  INFO -- default-precise64: [2015-05-06T13:30:04-04:00] ERROR: Running exception handlers
-I, [2015-05-06T10:30:04.703500 #19081]  INFO -- default-precise64: Running handlers complete
-I, [2015-05-06T10:30:04.703517 #19081]  INFO -- default-precise64: [2015-05-06T13:30:04-04:00] ERROR: Exception handlers complete
-I, [2015-05-06T10:30:04.703537 #19081]  INFO -- default-precise64: [2015-05-06T13:30:04-04:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
-I, [2015-05-06T10:30:04.703556 #19081]  INFO -- default-precise64: Chef Client failed. 0 resources updated in 6.778603663 seconds
-I, [2015-05-06T10:30:04.716472 #19081]  INFO -- default-precise64: [2015-05-06T13:30:04-04:00] ERROR: could not find recipe appserver for cookbook skeleton-service-cookbook
-I, [2015-05-06T10:30:04.760356 #19081]  INFO -- default-precise64: [2015-05-06T13:30:04-04:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
-E, [2015-05-06T10:30:04.797540 #19081] ERROR -- default-precise64: Converge failed on instance <default-precise64>.
-E, [2015-05-06T10:30:04.797683 #19081] ERROR -- default-precise64: ------Exception-------
-E, [2015-05-06T10:30:04.797762 #19081] ERROR -- default-precise64: Class: Kitchen::ActionFailed
-E, [2015-05-06T10:30:04.797786 #19081] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:30:04.797809 #19081] ERROR -- default-precise64: ---Nested Exception---
-E, [2015-05-06T10:30:04.797830 #19081] ERROR -- default-precise64: Class: Kitchen::SSHFailed
-E, [2015-05-06T10:30:04.797850 #19081] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:30:04.797871 #19081] ERROR -- default-precise64: ------Backtrace-------
-E, [2015-05-06T10:30:04.797892 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:152:in `rescue in run_remote'
-E, [2015-05-06T10:30:04.797913 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:148:in `run_remote'
-E, [2015-05-06T10:30:04.797935 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:50:in `block in converge'
-E, [2015-05-06T10:30:04.797956 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:70:in `initialize'
-E, [2015-05-06T10:30:04.797977 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `new'
-E, [2015-05-06T10:30:04.797999 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `converge'
-E, [2015-05-06T10:30:04.798020 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `public_send'
-E, [2015-05-06T10:30:04.798041 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `block in perform_action'
-E, [2015-05-06T10:30:04.798061 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `call'
-E, [2015-05-06T10:30:04.798080 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `synchronize_or_call'
-E, [2015-05-06T10:30:04.798143 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:381:in `block in action'
-E, [2015-05-06T10:30:04.798163 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
-E, [2015-05-06T10:30:04.798196 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:380:in `action'
-E, [2015-05-06T10:30:04.798219 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `perform_action'
-E, [2015-05-06T10:30:04.798240 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:312:in `converge_action'
-E, [2015-05-06T10:30:04.798261 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:292:in `block in transition_to'
-E, [2015-05-06T10:30:04.798272 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `each'
-E, [2015-05-06T10:30:04.798282 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `transition_to'
-E, [2015-05-06T10:30:04.798292 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:130:in `converge'
-E, [2015-05-06T10:30:04.798302 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `public_send'
-E, [2015-05-06T10:30:04.798312 #19081] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
-E, [2015-05-06T10:30:04.798321 #19081] ERROR -- default-precise64: ----------------------
-I, [2015-05-06T10:30:32.713127 #19099]  INFO -- default-precise64: -----> Converging <default-precise64>...
-I, [2015-05-06T10:30:32.713852 #19099]  INFO -- default-precise64: Preparing files for transfer
-I, [2015-05-06T10:30:32.713926 #19099]  INFO -- default-precise64: Preparing dna.json
-I, [2015-05-06T10:30:32.714235 #19099]  INFO -- default-precise64: Preparing cookbooks from project directory
-I, [2015-05-06T10:30:32.732054 #19099]  INFO -- default-precise64: Preparing current project directory as a cookbook
-I, [2015-05-06T10:30:32.750858 #19099]  INFO -- default-precise64: Removing non-cookbook files before transfer
-I, [2015-05-06T10:30:32.760693 #19099]  INFO -- default-precise64: Preparing solo.rb
-I, [2015-05-06T10:30:32.827224 #19099]  INFO -- default-precise64: -----> Chef Omnibus installation detected (install only if missing)
-I, [2015-05-06T10:30:32.843540 #19099]  INFO -- default-precise64: Transferring files to <default-precise64>
-I, [2015-05-06T10:30:33.705291 #19099]  INFO -- default-precise64: [2015-05-06T13:30:33-04:00] WARN: 
-I, [2015-05-06T10:30:33.705342 #19099]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:30:33.705360 #19099]  INFO -- default-precise64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
-I, [2015-05-06T10:30:33.705396 #19099]  INFO -- default-precise64: encrypted, but chef is not able to detect forged replies or man in the middle
-I, [2015-05-06T10:30:33.705409 #19099]  INFO -- default-precise64: attacks.
-I, [2015-05-06T10:30:33.705421 #19099]  INFO -- default-precise64: 
-I, [2015-05-06T10:30:33.705433 #19099]  INFO -- default-precise64: To fix this issue add an entry like this to your configuration file:
-I, [2015-05-06T10:30:33.705445 #19099]  INFO -- default-precise64: 
-I, [2015-05-06T10:30:33.705456 #19099]  INFO -- default-precise64: ```
-I, [2015-05-06T10:30:33.705468 #19099]  INFO -- default-precise64:   # Verify all HTTPS connections (recommended)
-I, [2015-05-06T10:30:33.705479 #19099]  INFO -- default-precise64:   ssl_verify_mode :verify_peer
-I, [2015-05-06T10:30:33.705491 #19099]  INFO -- default-precise64: 
-I, [2015-05-06T10:30:33.705527 #19099]  INFO -- default-precise64:   # OR, Verify only connections to chef-server
-I, [2015-05-06T10:30:33.705539 #19099]  INFO -- default-precise64:   verify_api_cert true
-I, [2015-05-06T10:30:33.705550 #19099]  INFO -- default-precise64: ```
-I, [2015-05-06T10:30:33.705562 #19099]  INFO -- default-precise64: 
-I, [2015-05-06T10:30:33.705593 #19099]  INFO -- default-precise64: To check your SSL configuration, or troubleshoot errors, you can use the
-I, [2015-05-06T10:30:33.705609 #19099]  INFO -- default-precise64: `knife ssl check` command like so:
-I, [2015-05-06T10:30:33.705621 #19099]  INFO -- default-precise64: 
-I, [2015-05-06T10:30:33.705632 #19099]  INFO -- default-precise64: ```
-I, [2015-05-06T10:30:33.705643 #19099]  INFO -- default-precise64:   knife ssl check -c /tmp/kitchen/solo.rb
-I, [2015-05-06T10:30:33.705655 #19099]  INFO -- default-precise64: ```
-I, [2015-05-06T10:30:33.705666 #19099]  INFO -- default-precise64: 
-I, [2015-05-06T10:30:33.705678 #19099]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:30:33.705689 #19099]  INFO -- default-precise64: 
-I, [2015-05-06T10:30:33.705701 #19099]  INFO -- default-precise64: Starting Chef Client, version 11.12.2
-I, [2015-05-06T10:30:40.360323 #19099]  INFO -- default-precise64: Compiling Cookbooks...
-I, [2015-05-06T10:30:40.361840 #19099]  INFO -- default-precise64: Converging 0 resources
-I, [2015-05-06T10:30:40.361883 #19099]  INFO -- default-precise64: 
-I, [2015-05-06T10:30:40.361901 #19099]  INFO -- default-precise64: Running handlers:
-I, [2015-05-06T10:30:40.361937 #19099]  INFO -- default-precise64: Running handlers complete
-I, [2015-05-06T10:30:40.361951 #19099]  INFO -- default-precise64: Chef Client finished, 0/0 resources updated in 6.659562034 seconds
-I, [2015-05-06T10:30:40.452587 #19099]  INFO -- default-precise64: Finished converging <default-precise64> (0m7.74s).
-I, [2015-05-06T10:33:05.822343 #19131]  INFO -- default-precise64: -----> Setting up <default-precise64>...
-I, [2015-05-06T10:33:29.458621 #19131]  INFO -- default-precise64: Fetching: thor-0.19.0.gemFetching: thor-0.19.0.gem (  6%)Fetching: thor-0.19.0.gem ( 15%)Fetching: thor-0.19.0.gem ( 21%)Fetching: thor-0.19.0.gem ( 22%)Fetching: thor-0.19.0.gem ( 28%)Fetching: thor-0.19.0.gem ( 31%)Fetching: thor-0.19.0.gem ( 36%)Fetching: thor-0.19.0.gem ( 41%)Fetching: thor-0.19.0.gem ( 48%)Fetching: thor-0.19.0.gem ( 51%)Fetching: thor-0.19.0.gem ( 60%)Fetching: thor-0.19.0.gem ( 63%)Fetching: thor-0.19.0.gem ( 65%)Fetching: thor-0.19.0.gem ( 71%)Fetching: thor-0.19.0.gem ( 72%)Fetching: thor-0.19.0.gem ( 78%)Fetching: thor-0.19.0.gem ( 80%)Fetching: thor-0.19.0.gem ( 86%)Fetching: thor-0.19.0.gem ( 92%)Fetching: thor-0.19.0.gem ( 95%)Fetching: thor-0.19.0.gem ( 99%)Fetching: thor-0.19.0.gem (100%)Fetching: thor-0.19.0.gem (100%)
-I, [2015-05-06T10:33:29.539792 #19131]  INFO -- default-precise64: Fetching: busser-0.7.1.gemFetching: busser-0.7.1.gem ( 20%)Fetching: busser-0.7.1.gem ( 48%)Fetching: busser-0.7.1.gem ( 82%)Fetching: busser-0.7.1.gem (100%)Fetching: busser-0.7.1.gem (100%)
-I, [2015-05-06T10:33:29.556436 #19131]  INFO -- default-precise64: Successfully installed thor-0.19.0
-I, [2015-05-06T10:33:29.556508 #19131]  INFO -- default-precise64: Successfully installed busser-0.7.1
-I, [2015-05-06T10:33:29.556539 #19131]  INFO -- default-precise64: 2 gems installed
-I, [2015-05-06T10:33:29.753767 #19131]  INFO -- default-precise64: -----> Setting up Busser
-I, [2015-05-06T10:33:29.753876 #19131]  INFO -- default-precise64: Creating BUSSER_ROOT in /tmp/busser
-I, [2015-05-06T10:33:29.753929 #19131]  INFO -- default-precise64: Creating busser binstub
-I, [2015-05-06T10:33:46.641808 #19131]  INFO -- default-precise64: Plugin serverspec installed (version 0.5.6)
-I, [2015-05-06T10:33:46.643695 #19131]  INFO -- default-precise64: -----> Running postinstall for serverspec plugin
-I, [2015-05-06T10:33:46.997623 #19131]  INFO -- default-precise64: Finished setting up <default-precise64> (0m41.17s).
-I, [2015-05-06T10:33:46.997741 #19131]  INFO -- default-precise64: -----> Verifying <default-precise64>...
-I, [2015-05-06T10:33:47.220020 #19131]  INFO -- default-precise64: Suite path directory /tmp/busser/suites does not exist, skipping.
-I, [2015-05-06T10:33:47.378909 #19131]  INFO -- default-precise64: Uploading /tmp/busser/suites/serverspec/java_spec.rb (mode=0644)
-I, [2015-05-06T10:33:47.833323 #19131]  INFO -- default-precise64: Uploading /tmp/busser/suites/serverspec/spec_helper.rb (mode=0644)
-I, [2015-05-06T10:33:48.284405 #19131]  INFO -- default-precise64: -----> Running serverspec test suite
-I, [2015-05-06T10:33:48.296340 #19131]  INFO -- default-precise64: -----> Installing Serverspec..
-I, [2015-05-06T10:34:11.729082 #19131]  INFO -- default-precise64: Fetching: rspec-support-3.2.2.gemFetching: rspec-support-3.2.2.gem ( 30%)Fetching: rspec-support-3.2.2.gem ( 52%)Fetching: rspec-support-3.2.2.gem ( 68%)Fetching: rspec-support-3.2.2.gem ( 95%)Fetching: rspec-support-3.2.2.gem (100%)Fetching: rspec-support-3.2.2.gem (100%)
-I, [2015-05-06T10:34:11.903225 #19131]  INFO -- default-precise64: Fetching: rspec-core-3.2.3.gemFetching: rspec-core-3.2.3.gem (  8%)Fetching: rspec-core-3.2.3.gem ( 10%)Fetching: rspec-core-3.2.3.gem ( 17%)Fetching: rspec-core-3.2.3.gem ( 20%)Fetching: rspec-core-3.2.3.gem ( 25%)Fetching: rspec-core-3.2.3.gem ( 27%)Fetching: rspec-core-3.2.3.gem ( 33%)Fetching: rspec-core-3.2.3.gem ( 35%)Fetching: rspec-core-3.2.3.gem ( 40%)Fetching: rspec-core-3.2.3.gem ( 41%)Fetching: rspec-core-3.2.3.gem ( 43%)Fetching: rspec-core-3.2.3.gem ( 46%)Fetching: rspec-core-3.2.3.gem ( 50%)Fetching: rspec-core-3.2.3.gem ( 57%)Fetching: rspec-core-3.2.3.gem ( 60%)Fetching: rspec-core-3.2.3.gem ( 67%)Fetching: rspec-core-3.2.3.gem ( 70%)Fetching: rspec-core-3.2.3.gem ( 77%)Fetching: rspec-core-3.2.3.gem ( 78%)Fetching: rspec-core-3.2.3.gem ( 88%)Fetching: rspec-core-3.2.3.gem ( 91%)Fetching: rspec-core-3.2.3.gem (100%)Fetching: rspec-core-3.2.3.gem (100%)
-I, [2015-05-06T10:34:11.999811 #19131]  INFO -- default-precise64: Fetching: diff-lcs-1.2.5.gemFetching: diff-lcs-1.2.5.gem (  2%)Fetching: diff-lcs-1.2.5.gem ( 35%)Fetching: diff-lcs-1.2.5.gem ( 41%)Fetching: diff-lcs-1.2.5.gem ( 75%)Fetching: diff-lcs-1.2.5.gem (100%)Fetching: diff-lcs-1.2.5.gem (100%)
-I, [2015-05-06T10:34:12.090589 #19131]  INFO -- default-precise64: Fetching: rspec-expectations-3.2.1.gemFetching: rspec-expectations-3.2.1.gem (  1%)Fetching: rspec-expectations-3.2.1.gem ( 25%)Fetching: rspec-expectations-3.2.1.gem ( 32%)Fetching: rspec-expectations-3.2.1.gem ( 56%)Fetching: rspec-expectations-3.2.1.gem ( 77%)Fetching: rspec-expectations-3.2.1.gem ( 85%)Fetching: rspec-expectations-3.2.1.gem ( 87%)Fetching: rspec-expectations-3.2.1.gem ( 97%)Fetching: rspec-expectations-3.2.1.gem (100%)Fetching: rspec-expectations-3.2.1.gem (100%)
-I, [2015-05-06T10:34:12.192138 #19131]  INFO -- default-precise64: Fetching: rspec-mocks-3.2.1.gemFetching: rspec-mocks-3.2.1.gem ( 13%)Fetching: rspec-mocks-3.2.1.gem ( 23%)Fetching: rspec-mocks-3.2.1.gem ( 31%)Fetching: rspec-mocks-3.2.1.gem ( 35%)Fetching: rspec-mocks-3.2.1.gem ( 42%)Fetching: rspec-mocks-3.2.1.gem ( 48%)Fetching: rspec-mocks-3.2.1.gem ( 50%)Fetching: rspec-mocks-3.2.1.gem ( 60%)Fetching: rspec-mocks-3.2.1.gem ( 66%)Fetching: rspec-mocks-3.2.1.gem ( 70%)Fetching: rspec-mocks-3.2.1.gem ( 73%)Fetching: rspec-mocks-3.2.1.gem ( 75%)Fetching: rspec-mocks-3.2.1.gem ( 83%)Fetching: rspec-mocks-3.2.1.gem ( 93%)Fetching: rspec-mocks-3.2.1.gem ( 95%)Fetching: rspec-mocks-3.2.1.gem ( 99%)Fetching: rspec-mocks-3.2.1.gem (100%)Fetching: rspec-mocks-3.2.1.gem (100%)
-I, [2015-05-06T10:34:12.314513 #19131]  INFO -- default-precise64: Fetching: rspec-3.2.0.gemFetching: rspec-3.2.0.gem (  7%)Fetching: rspec-3.2.0.gem (100%)Fetching: rspec-3.2.0.gem (100%)
-I, [2015-05-06T10:34:12.375155 #19131]  INFO -- default-precise64: Fetching: rspec-its-1.2.0.gemFetching: rspec-its-1.2.0.gem ( 71%)Fetching: rspec-its-1.2.0.gem ( 81%)Fetching: rspec-its-1.2.0.gem (100%)Fetching: rspec-its-1.2.0.gem (100%)
-I, [2015-05-06T10:34:12.441938 #19131]  INFO -- default-precise64: Fetching: multi_json-1.11.0.gemFetching: multi_json-1.11.0.gem (  3%)Fetching: multi_json-1.11.0.gem (  9%)Fetching: multi_json-1.11.0.gem ( 20%)Fetching: multi_json-1.11.0.gem ( 87%)Fetching: multi_json-1.11.0.gem (100%)Fetching: multi_json-1.11.0.gem (100%)
-I, [2015-05-06T10:34:12.580295 #19131]  INFO -- default-precise64: Fetching: net-ssh-2.9.2.gemFetching: net-ssh-2.9.2.gem (  4%)Fetching: net-ssh-2.9.2.gem (  5%)Fetching: net-ssh-2.9.2.gem (  7%)Fetching: net-ssh-2.9.2.gem ( 16%)Fetching: net-ssh-2.9.2.gem ( 23%)Fetching: net-ssh-2.9.2.gem ( 31%)Fetching: net-ssh-2.9.2.gem ( 34%)Fetching: net-ssh-2.9.2.gem ( 36%)Fetching: net-ssh-2.9.2.gem ( 37%)Fetching: net-ssh-2.9.2.gem ( 47%)Fetching: net-ssh-2.9.2.gem ( 56%)Fetching: net-ssh-2.9.2.gem ( 57%)Fetching: net-ssh-2.9.2.gem ( 66%)Fetching: net-ssh-2.9.2.gem ( 69%)Fetching: net-ssh-2.9.2.gem ( 71%)Fetching: net-ssh-2.9.2.gem ( 73%)Fetching: net-ssh-2.9.2.gem ( 74%)Fetching: net-ssh-2.9.2.gem ( 75%)Fetching: net-ssh-2.9.2.gem ( 83%)Fetching: net-ssh-2.9.2.gem ( 85%)Fetching: net-ssh-2.9.2.gem ( 87%)Fetching: net-ssh-2.9.2.gem ( 90%)Fetching: net-ssh-2.9.2.gem ( 91%)Fetching: net-ssh-2.9.2.gem (100%)Fetching: net-ssh-2.9.2.gem (100%)
-I, [2015-05-06T10:34:12.731185 #19131]  INFO -- default-precise64: Fetching: net-scp-1.2.1.gemFetching: net-scp-1.2.1.gem (  3%)Fetching: net-scp-1.2.1.gem ( 19%)Fetching: net-scp-1.2.1.gem ( 36%)Fetching: net-scp-1.2.1.gem ( 41%)Fetching: net-scp-1.2.1.gem ( 49%)Fetching: net-scp-1.2.1.gem ( 57%)Fetching: net-scp-1.2.1.gem ( 66%)Fetching: net-scp-1.2.1.gem ( 74%)Fetching: net-scp-1.2.1.gem ( 83%)Fetching: net-scp-1.2.1.gem ( 87%)Fetching: net-scp-1.2.1.gem ( 91%)Fetching: net-scp-1.2.1.gem (100%)Fetching: net-scp-1.2.1.gem (100%)
-I, [2015-05-06T10:34:12.805986 #19131]  INFO -- default-precise64: Fetching: specinfra-2.31.0.gemFetching: specinfra-2.31.0.gem ( 31%)Fetching: specinfra-2.31.0.gem ( 62%)Fetching: specinfra-2.31.0.gem ( 93%)Fetching: specinfra-2.31.0.gem (100%)Fetching: specinfra-2.31.0.gem (100%)
-I, [2015-05-06T10:34:12.982279 #19131]  INFO -- default-precise64: Fetching: serverspec-2.15.0.gemFetching: serverspec-2.15.0.gem (  2%)Fetching: serverspec-2.15.0.gem ( 51%)Fetching: serverspec-2.15.0.gem ( 99%)Fetching: serverspec-2.15.0.gem (100%)Fetching: serverspec-2.15.0.gem (100%)
-I, [2015-05-06T10:34:13.022792 #19131]  INFO -- default-precise64: -----> serverspec installed (version 2.15.0)
-I, [2015-05-06T10:34:13.129061 #19131]  INFO -- default-precise64: /opt/chef/embedded/bin/ruby -I/tmp/busser/suites/serverspec -I/tmp/busser/gems/gems/rspec-support-3.2.2/lib:/tmp/busser/gems/gems/rspec-core-3.2.3/lib /opt/chef/embedded/bin/rspec --pattern /tmp/busser/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/busser/suites/serverspec
-I, [2015-05-06T10:34:13.505418 #19131]  INFO -- default-precise64: 
-I, [2015-05-06T10:34:13.505468 #19131]  INFO -- default-precise64: Command "java -version"
-I, [2015-05-06T10:34:13.505485 #19131]  INFO -- default-precise64:   exit_status
-I, [2015-05-06T10:34:13.603745 #19131]  INFO -- default-precise64: [32m    should eq 0[0m
-I, [2015-05-06T10:34:13.603795 #19131]  INFO -- default-precise64:   stdout
-I, [2015-05-06T10:34:13.606546 #19131]  INFO -- default-precise64: [31m    should match /1.8/ (FAILED - 1)[0m
-I, [2015-05-06T10:34:13.606590 #19131]  INFO -- default-precise64: 
-I, [2015-05-06T10:34:13.606606 #19131]  INFO -- default-precise64: Failures:
-I, [2015-05-06T10:34:13.606619 #19131]  INFO -- default-precise64: 
-I, [2015-05-06T10:34:13.606632 #19131]  INFO -- default-precise64:   1) Command "java -version" stdout should match /1.8/
-I, [2015-05-06T10:34:13.606688 #19131]  INFO -- default-precise64:      [31mFailure/Error: its(:stdout) { should match /1.8/ }[0m
-I, [2015-05-06T10:34:13.606702 #19131]  INFO -- default-precise64:      [31m  expected "java version \"1.6.0_41\"\nJava(TM) SE Runtime Environment (build 1.6.0_41-b02)\nJava HotSpot(TM) 64-Bit Server VM (build 20.14-b01, mixed mode)\n" to match /1.8/[0m
-I, [2015-05-06T10:34:13.606714 #19131]  INFO -- default-precise64:      [31m  Diff:[0m[0m
-I, [2015-05-06T10:34:13.606725 #19131]  INFO -- default-precise64:      [31m  [0m[34m@@ -1,2 +1,4 @@[0m
-I, [2015-05-06T10:34:13.606758 #19131]  INFO -- default-precise64:      [31m  [0m[31m-/1.8/[0m
-I, [2015-05-06T10:34:13.606773 #19131]  INFO -- default-precise64:      [31m  [0m[32m+java version "1.6.0_41"[0m
-I, [2015-05-06T10:34:13.606785 #19131]  INFO -- default-precise64:      [31m  [0m[32m+Java(TM) SE Runtime Environment (build 1.6.0_41-b02)[0m
-I, [2015-05-06T10:34:13.606798 #19131]  INFO -- default-precise64:      [31m  [0m[32m+Java HotSpot(TM) 64-Bit Server VM (build 20.14-b01, mixed mode)[0m
-I, [2015-05-06T10:34:13.606810 #19131]  INFO -- default-precise64:      [31m  [0m[0m
-I, [2015-05-06T10:34:13.606821 #19131]  INFO -- default-precise64:      [31m  [0m
-I, [2015-05-06T10:34:13.606833 #19131]  INFO -- default-precise64:      [36m# /tmp/busser/suites/serverspec/java_spec.rb:5:in `block (2 levels) in <top (required)>'[0m
-I, [2015-05-06T10:34:13.606845 #19131]  INFO -- default-precise64: 
-I, [2015-05-06T10:34:13.606856 #19131]  INFO -- default-precise64: Finished in 0.10109 seconds (files took 0.33428 seconds to load)
-I, [2015-05-06T10:34:13.606870 #19131]  INFO -- default-precise64: [31m2 examples, 1 failure[0m
-I, [2015-05-06T10:34:13.606882 #19131]  INFO -- default-precise64: 
-I, [2015-05-06T10:34:13.606894 #19131]  INFO -- default-precise64: Failed examples:
-I, [2015-05-06T10:34:13.606905 #19131]  INFO -- default-precise64: 
-I, [2015-05-06T10:34:13.606916 #19131]  INFO -- default-precise64: [31mrspec /tmp/busser/suites/serverspec/java_spec.rb:5[0m [36m# Command "java -version" stdout should match /1.8/[0m
-I, [2015-05-06T10:34:13.606954 #19131]  INFO -- default-precise64: 
-I, [2015-05-06T10:34:13.623083 #19131]  INFO -- default-precise64: /opt/chef/embedded/bin/ruby -I/tmp/busser/suites/serverspec -I/tmp/busser/gems/gems/rspec-support-3.2.2/lib:/tmp/busser/gems/gems/rspec-core-3.2.3/lib /opt/chef/embedded/bin/rspec --pattern /tmp/busser/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/busser/suites/serverspec failed
-I, [2015-05-06T10:34:13.634826 #19131]  INFO -- default-precise64: !!!!!! Ruby Script [/tmp/busser/gems/gems/busser-serverspec-0.5.6/lib/busser/runner_plugin/../serverspec/runner.rb /tmp/busser/suites/serverspec] exit code was 1
-E, [2015-05-06T10:34:13.671645 #19131] ERROR -- default-precise64: Verify failed on instance <default-precise64>.
-E, [2015-05-06T10:34:13.671737 #19131] ERROR -- default-precise64: ------Exception-------
-E, [2015-05-06T10:34:13.671754 #19131] ERROR -- default-precise64: Class: Kitchen::ActionFailed
-E, [2015-05-06T10:34:13.671765 #19131] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-BUSSER_ROOT="/tmp/busser" GEM_HOME="/tmp/busser/gems" GEM_PATH="/tmp/busser/gems" GEM_CACHE="/tmp/busser/gems/cache" 
-export BUSSER_ROOT GEM_HOME GEM_PATH GEM_CACHE
-
-sudo -E /tmp/busser/bin/busser test
-']
-E, [2015-05-06T10:34:13.671776 #19131] ERROR -- default-precise64: ---Nested Exception---
-E, [2015-05-06T10:34:13.671785 #19131] ERROR -- default-precise64: Class: Kitchen::SSHFailed
-E, [2015-05-06T10:34:13.671795 #19131] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-BUSSER_ROOT="/tmp/busser" GEM_HOME="/tmp/busser/gems" GEM_PATH="/tmp/busser/gems" GEM_CACHE="/tmp/busser/gems/cache" 
-export BUSSER_ROOT GEM_HOME GEM_PATH GEM_CACHE
-
-sudo -E /tmp/busser/bin/busser test
-']
-E, [2015-05-06T10:34:13.671816 #19131] ERROR -- default-precise64: ------Backtrace-------
-E, [2015-05-06T10:34:13.671826 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:152:in `rescue in run_remote'
-E, [2015-05-06T10:34:13.671836 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:148:in `run_remote'
-E, [2015-05-06T10:34:13.671845 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:67:in `block in verify'
-E, [2015-05-06T10:34:13.671855 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:70:in `initialize'
-E, [2015-05-06T10:34:13.671883 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:65:in `new'
-E, [2015-05-06T10:34:13.671895 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:65:in `verify'
-E, [2015-05-06T10:34:13.671904 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `public_send'
-E, [2015-05-06T10:34:13.671914 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `block in perform_action'
-E, [2015-05-06T10:34:13.671924 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `call'
-E, [2015-05-06T10:34:13.671934 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `synchronize_or_call'
-E, [2015-05-06T10:34:13.671943 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:381:in `block in action'
-E, [2015-05-06T10:34:13.671953 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
-E, [2015-05-06T10:34:13.671974 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:380:in `action'
-E, [2015-05-06T10:34:13.671985 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `perform_action'
-E, [2015-05-06T10:34:13.671995 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:330:in `verify_action'
-E, [2015-05-06T10:34:13.672005 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:292:in `block in transition_to'
-E, [2015-05-06T10:34:13.672014 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `each'
-E, [2015-05-06T10:34:13.672024 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `transition_to'
-E, [2015-05-06T10:34:13.672034 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:152:in `verify'
-E, [2015-05-06T10:34:13.672044 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `public_send'
-E, [2015-05-06T10:34:13.672053 #19131] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
-E, [2015-05-06T10:34:13.672063 #19131] ERROR -- default-precise64: ----------------------
-I, [2015-05-06T10:40:06.482804 #19251]  INFO -- default-precise64: -----> Verifying <default-precise64>...
-I, [2015-05-06T10:40:06.725384 #19251]  INFO -- default-precise64: Removing /tmp/busser/suites/serverspec
-I, [2015-05-06T10:40:06.885650 #19251]  INFO -- default-precise64: Uploading /tmp/busser/suites/serverspec/java_spec.rb (mode=0644)
-I, [2015-05-06T10:40:07.322766 #19251]  INFO -- default-precise64: Uploading /tmp/busser/suites/serverspec/spec_helper.rb (mode=0644)
-I, [2015-05-06T10:40:07.769367 #19251]  INFO -- default-precise64: -----> Running serverspec test suite
-I, [2015-05-06T10:40:07.834361 #19251]  INFO -- default-precise64: /opt/chef/embedded/bin/ruby -I/tmp/busser/suites/serverspec -I/tmp/busser/gems/gems/rspec-support-3.2.2/lib:/tmp/busser/gems/gems/rspec-core-3.2.3/lib /opt/chef/embedded/bin/rspec --pattern /tmp/busser/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/busser/suites/serverspec
-I, [2015-05-06T10:40:08.181092 #19251]  INFO -- default-precise64: 
-I, [2015-05-06T10:40:08.181153 #19251]  INFO -- default-precise64: Command "java -version"
-I, [2015-05-06T10:40:08.181170 #19251]  INFO -- default-precise64:   exit_status
-I, [2015-05-06T10:40:08.257572 #19251]  INFO -- default-precise64: [32m    should eq 0[0m
-I, [2015-05-06T10:40:08.257635 #19251]  INFO -- default-precise64:   stdout
-I, [2015-05-06T10:40:08.257652 #19251]  INFO -- default-precise64: [31m    should match /1.8/ (FAILED - 1)[0m
-I, [2015-05-06T10:40:08.257688 #19251]  INFO -- default-precise64: 
-I, [2015-05-06T10:40:08.257704 #19251]  INFO -- default-precise64: Failures:
-I, [2015-05-06T10:40:08.257717 #19251]  INFO -- default-precise64: 
-I, [2015-05-06T10:40:08.257730 #19251]  INFO -- default-precise64:   1) Command "java -version" stdout should match /1.8/
-I, [2015-05-06T10:40:08.257744 #19251]  INFO -- default-precise64:      [31mFailure/Error: its(:stdout) { should match /1.8/ }[0m
-I, [2015-05-06T10:40:08.257769 #19251]  INFO -- default-precise64:      [31m  expected "java version \"1.6.0_41\"\nJava(TM) SE Runtime Environment (build 1.6.0_41-b02)\nJava HotSpot(TM) 64-Bit Server VM (build 20.14-b01, mixed mode)\n" to match /1.8/[0m
-I, [2015-05-06T10:40:08.257782 #19251]  INFO -- default-precise64:      [31m  Diff:[0m[0m
-I, [2015-05-06T10:40:08.257795 #19251]  INFO -- default-precise64:      [31m  [0m[34m@@ -1,2 +1,4 @@[0m
-I, [2015-05-06T10:40:08.257806 #19251]  INFO -- default-precise64:      [31m  [0m[31m-/1.8/[0m
-I, [2015-05-06T10:40:08.257818 #19251]  INFO -- default-precise64:      [31m  [0m[32m+java version "1.6.0_41"[0m
-I, [2015-05-06T10:40:08.257881 #19251]  INFO -- default-precise64:      [31m  [0m[32m+Java(TM) SE Runtime Environment (build 1.6.0_41-b02)[0m
-I, [2015-05-06T10:40:08.257893 #19251]  INFO -- default-precise64:      [31m  [0m[32m+Java HotSpot(TM) 64-Bit Server VM (build 20.14-b01, mixed mode)[0m
-I, [2015-05-06T10:40:08.257907 #19251]  INFO -- default-precise64:      [31m  [0m[0m
-I, [2015-05-06T10:40:08.257919 #19251]  INFO -- default-precise64:      [31m  [0m
-I, [2015-05-06T10:40:08.257930 #19251]  INFO -- default-precise64:      [36m# /tmp/busser/suites/serverspec/java_spec.rb:5:in `block (2 levels) in <top (required)>'[0m
-I, [2015-05-06T10:40:08.257942 #19251]  INFO -- default-precise64: 
-I, [2015-05-06T10:40:08.257954 #19251]  INFO -- default-precise64: Finished in 0.07358 seconds (files took 0.31737 seconds to load)
-I, [2015-05-06T10:40:08.257966 #19251]  INFO -- default-precise64: [31m2 examples, 1 failure[0m
-I, [2015-05-06T10:40:08.257977 #19251]  INFO -- default-precise64: 
-I, [2015-05-06T10:40:08.257988 #19251]  INFO -- default-precise64: Failed examples:
-I, [2015-05-06T10:40:08.257999 #19251]  INFO -- default-precise64: 
-I, [2015-05-06T10:40:08.258010 #19251]  INFO -- default-precise64: [31mrspec /tmp/busser/suites/serverspec/java_spec.rb:5[0m [36m# Command "java -version" stdout should match /1.8/[0m
-I, [2015-05-06T10:40:08.258022 #19251]  INFO -- default-precise64: 
-I, [2015-05-06T10:40:08.277521 #19251]  INFO -- default-precise64: /opt/chef/embedded/bin/ruby -I/tmp/busser/suites/serverspec -I/tmp/busser/gems/gems/rspec-support-3.2.2/lib:/tmp/busser/gems/gems/rspec-core-3.2.3/lib /opt/chef/embedded/bin/rspec --pattern /tmp/busser/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/busser/suites/serverspec failed
-I, [2015-05-06T10:40:08.277578 #19251]  INFO -- default-precise64: !!!!!! Ruby Script [/tmp/busser/gems/gems/busser-serverspec-0.5.6/lib/busser/runner_plugin/../serverspec/runner.rb /tmp/busser/suites/serverspec] exit code was 1
-E, [2015-05-06T10:40:08.285296 #19251] ERROR -- default-precise64: Verify failed on instance <default-precise64>.
-E, [2015-05-06T10:40:08.285435 #19251] ERROR -- default-precise64: ------Exception-------
-E, [2015-05-06T10:40:08.285454 #19251] ERROR -- default-precise64: Class: Kitchen::ActionFailed
-E, [2015-05-06T10:40:08.285466 #19251] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-BUSSER_ROOT="/tmp/busser" GEM_HOME="/tmp/busser/gems" GEM_PATH="/tmp/busser/gems" GEM_CACHE="/tmp/busser/gems/cache" 
-export BUSSER_ROOT GEM_HOME GEM_PATH GEM_CACHE
-
-sudo -E /tmp/busser/bin/busser test
-']
-E, [2015-05-06T10:40:08.285478 #19251] ERROR -- default-precise64: ---Nested Exception---
-E, [2015-05-06T10:40:08.285488 #19251] ERROR -- default-precise64: Class: Kitchen::SSHFailed
-E, [2015-05-06T10:40:08.285498 #19251] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-BUSSER_ROOT="/tmp/busser" GEM_HOME="/tmp/busser/gems" GEM_PATH="/tmp/busser/gems" GEM_CACHE="/tmp/busser/gems/cache" 
-export BUSSER_ROOT GEM_HOME GEM_PATH GEM_CACHE
-
-sudo -E /tmp/busser/bin/busser test
-']
-E, [2015-05-06T10:40:08.285527 #19251] ERROR -- default-precise64: ------Backtrace-------
-E, [2015-05-06T10:40:08.285570 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:152:in `rescue in run_remote'
-E, [2015-05-06T10:40:08.285581 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:148:in `run_remote'
-E, [2015-05-06T10:40:08.285592 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:67:in `block in verify'
-E, [2015-05-06T10:40:08.285603 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:70:in `initialize'
-E, [2015-05-06T10:40:08.285613 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:65:in `new'
-E, [2015-05-06T10:40:08.285624 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:65:in `verify'
-E, [2015-05-06T10:40:08.285634 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `public_send'
-E, [2015-05-06T10:40:08.285644 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `block in perform_action'
-E, [2015-05-06T10:40:08.285684 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `call'
-E, [2015-05-06T10:40:08.285697 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `synchronize_or_call'
-E, [2015-05-06T10:40:08.285708 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:381:in `block in action'
-E, [2015-05-06T10:40:08.285719 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
-E, [2015-05-06T10:40:08.285729 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:380:in `action'
-E, [2015-05-06T10:40:08.285739 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `perform_action'
-E, [2015-05-06T10:40:08.285750 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:330:in `verify_action'
-E, [2015-05-06T10:40:08.285768 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:292:in `block in transition_to'
-E, [2015-05-06T10:40:08.285778 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `each'
-E, [2015-05-06T10:40:08.285818 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `transition_to'
-E, [2015-05-06T10:40:08.285838 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:152:in `verify'
-E, [2015-05-06T10:40:08.285848 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `public_send'
-E, [2015-05-06T10:40:08.285858 #19251] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
-E, [2015-05-06T10:40:08.285867 #19251] ERROR -- default-precise64: ----------------------
-I, [2015-05-06T10:40:45.434606 #19265]  INFO -- default-precise64: -----> Verifying <default-precise64>...
-I, [2015-05-06T10:40:45.436825 #19265]  INFO -- default-precise64: [SSH] connection failed, retrying (#<Errno::ECONNREFUSED: Connection refused - connect(2) for "127.0.0.1" port 2200>)
-I, [2015-05-06T10:40:46.437605 #19265]  INFO -- default-precise64: [SSH] connection failed, retrying (#<Errno::ECONNREFUSED: Connection refused - connect(2) for "127.0.0.1" port 2200>)
-W, [2015-05-06T10:40:47.439130 #19265]  WARN -- default-precise64: [SSH] connection failed, terminating (#<Errno::ECONNREFUSED: Connection refused - connect(2) for "127.0.0.1" port 2200>)
-E, [2015-05-06T10:40:47.439306 #19265] ERROR -- default-precise64: Verify failed on instance <default-precise64>.
-E, [2015-05-06T10:40:47.439374 #19265] ERROR -- default-precise64: ------Exception-------
-E, [2015-05-06T10:40:47.439404 #19265] ERROR -- default-precise64: Class: Errno::ECONNREFUSED
-E, [2015-05-06T10:40:47.439428 #19265] ERROR -- default-precise64: Message: Connection refused - connect(2) for "127.0.0.1" port 2200
-E, [2015-05-06T10:40:47.439452 #19265] ERROR -- default-precise64: ------Backtrace-------
-E, [2015-05-06T10:40:47.439475 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.2/lib/net/ssh/transport/session.rb:70:in `initialize'
-E, [2015-05-06T10:40:47.439499 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.2/lib/net/ssh/transport/session.rb:70:in `open'
-E, [2015-05-06T10:40:47.439513 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.2/lib/net/ssh/transport/session.rb:70:in `block in initialize'
-E, [2015-05-06T10:40:47.439525 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/timeout.rb:76:in `timeout'
-E, [2015-05-06T10:40:47.439537 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/timeout.rb:127:in `timeout'
-E, [2015-05-06T10:40:47.439548 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.2/lib/net/ssh/transport/session.rb:67:in `initialize'
-E, [2015-05-06T10:40:47.439560 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.2/lib/net/ssh.rb:207:in `new'
-E, [2015-05-06T10:40:47.439595 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.2/lib/net/ssh.rb:207:in `start'
-E, [2015-05-06T10:40:47.439608 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:201:in `establish_connection'
-E, [2015-05-06T10:40:47.439619 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:184:in `session'
-E, [2015-05-06T10:40:47.439631 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:236:in `exec_with_exit'
-E, [2015-05-06T10:40:47.439642 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:81:in `exec'
-E, [2015-05-06T10:40:47.439653 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:150:in `run_remote'
-E, [2015-05-06T10:40:47.439665 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:66:in `block in verify'
-E, [2015-05-06T10:40:47.439678 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:70:in `initialize'
-E, [2015-05-06T10:40:47.439690 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:65:in `new'
-E, [2015-05-06T10:40:47.439701 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:65:in `verify'
-E, [2015-05-06T10:40:47.439713 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `public_send'
-E, [2015-05-06T10:40:47.439724 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `block in perform_action'
-E, [2015-05-06T10:40:47.439735 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `call'
-E, [2015-05-06T10:40:47.439747 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `synchronize_or_call'
-E, [2015-05-06T10:40:47.439758 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:381:in `block in action'
-E, [2015-05-06T10:40:47.439788 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
-E, [2015-05-06T10:40:47.439803 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:380:in `action'
-E, [2015-05-06T10:40:47.439842 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `perform_action'
-E, [2015-05-06T10:40:47.439854 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:330:in `verify_action'
-E, [2015-05-06T10:40:47.439865 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:292:in `block in transition_to'
-E, [2015-05-06T10:40:47.439877 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `each'
-E, [2015-05-06T10:40:47.439888 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `transition_to'
-E, [2015-05-06T10:40:47.439899 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:152:in `verify'
-E, [2015-05-06T10:40:47.439911 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `public_send'
-E, [2015-05-06T10:40:47.439922 #19265] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
-E, [2015-05-06T10:40:47.439933 #19265] ERROR -- default-precise64: ----------------------
-I, [2015-05-06T10:40:59.600104 #19276]  INFO -- default-precise64: -----> Converging <default-precise64>...
-I, [2015-05-06T10:40:59.600636 #19276]  INFO -- default-precise64: Preparing files for transfer
-I, [2015-05-06T10:40:59.600698 #19276]  INFO -- default-precise64: Preparing dna.json
-I, [2015-05-06T10:40:59.601042 #19276]  INFO -- default-precise64: Preparing cookbooks from project directory
-I, [2015-05-06T10:40:59.620261 #19276]  INFO -- default-precise64: Preparing current project directory as a cookbook
-I, [2015-05-06T10:40:59.639750 #19276]  INFO -- default-precise64: Removing non-cookbook files before transfer
-I, [2015-05-06T10:40:59.646851 #19276]  INFO -- default-precise64: Preparing solo.rb
-I, [2015-05-06T10:40:59.649004 #19276]  INFO -- default-precise64: [SSH] connection failed, retrying (#<Errno::ECONNREFUSED: Connection refused - connect(2) for "127.0.0.1" port 2200>)
-I, [2015-05-06T10:41:00.650337 #19276]  INFO -- default-precise64: [SSH] connection failed, retrying (#<Errno::ECONNREFUSED: Connection refused - connect(2) for "127.0.0.1" port 2200>)
-W, [2015-05-06T10:41:01.651373 #19276]  WARN -- default-precise64: [SSH] connection failed, terminating (#<Errno::ECONNREFUSED: Connection refused - connect(2) for "127.0.0.1" port 2200>)
-E, [2015-05-06T10:41:01.655816 #19276] ERROR -- default-precise64: Converge failed on instance <default-precise64>.
-E, [2015-05-06T10:41:01.655882 #19276] ERROR -- default-precise64: ------Exception-------
-E, [2015-05-06T10:41:01.655902 #19276] ERROR -- default-precise64: Class: Errno::ECONNREFUSED
-E, [2015-05-06T10:41:01.655915 #19276] ERROR -- default-precise64: Message: Connection refused - connect(2) for "127.0.0.1" port 2200
-E, [2015-05-06T10:41:01.655927 #19276] ERROR -- default-precise64: ------Backtrace-------
-E, [2015-05-06T10:41:01.655938 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.2/lib/net/ssh/transport/session.rb:70:in `initialize'
-E, [2015-05-06T10:41:01.656003 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.2/lib/net/ssh/transport/session.rb:70:in `open'
-E, [2015-05-06T10:41:01.656014 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.2/lib/net/ssh/transport/session.rb:70:in `block in initialize'
-E, [2015-05-06T10:41:01.656024 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/timeout.rb:76:in `timeout'
-E, [2015-05-06T10:41:01.656042 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/timeout.rb:127:in `timeout'
-E, [2015-05-06T10:41:01.656054 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.2/lib/net/ssh/transport/session.rb:67:in `initialize'
-E, [2015-05-06T10:41:01.656067 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.2/lib/net/ssh.rb:207:in `new'
-E, [2015-05-06T10:41:01.656078 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.2/lib/net/ssh.rb:207:in `start'
-E, [2015-05-06T10:41:01.656105 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:201:in `establish_connection'
-E, [2015-05-06T10:41:01.656115 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:184:in `session'
-E, [2015-05-06T10:41:01.656126 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:236:in `exec_with_exit'
-E, [2015-05-06T10:41:01.656136 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:81:in `exec'
-E, [2015-05-06T10:41:01.656146 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:150:in `run_remote'
-E, [2015-05-06T10:41:01.656156 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:46:in `block in converge'
-E, [2015-05-06T10:41:01.656166 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:70:in `initialize'
-E, [2015-05-06T10:41:01.656196 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `new'
-E, [2015-05-06T10:41:01.656207 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `converge'
-E, [2015-05-06T10:41:01.656217 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `public_send'
-E, [2015-05-06T10:41:01.656227 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `block in perform_action'
-E, [2015-05-06T10:41:01.656237 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `call'
-E, [2015-05-06T10:41:01.656247 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `synchronize_or_call'
-E, [2015-05-06T10:41:01.656257 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:381:in `block in action'
-E, [2015-05-06T10:41:01.656267 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
-E, [2015-05-06T10:41:01.656277 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:380:in `action'
-E, [2015-05-06T10:41:01.656289 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `perform_action'
-E, [2015-05-06T10:41:01.656312 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:312:in `converge_action'
-E, [2015-05-06T10:41:01.656323 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:292:in `block in transition_to'
-E, [2015-05-06T10:41:01.656333 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `each'
-E, [2015-05-06T10:41:01.656342 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `transition_to'
-E, [2015-05-06T10:41:01.656352 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:130:in `converge'
-E, [2015-05-06T10:41:01.656362 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `public_send'
-E, [2015-05-06T10:41:01.656377 #19276] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
-E, [2015-05-06T10:41:01.656412 #19276] ERROR -- default-precise64: ----------------------
-I, [2015-05-06T10:41:19.127135 #19291]  INFO -- default-precise64: -----> Destroying <default-precise64>...
-I, [2015-05-06T10:41:20.657141 #19291]  INFO -- default-precise64: ==> default: VM not created. Moving on...
-I, [2015-05-06T10:41:20.719168 #19291]  INFO -- default-precise64: Vagrant instance <default-precise64> destroyed.
-I, [2015-05-06T10:41:20.721029 #19291]  INFO -- default-precise64: Finished destroying <default-precise64> (0m1.59s).
-I, [2015-05-06T10:41:23.442486 #19318]  INFO -- default-precise64: -----> Creating <default-precise64>...
-I, [2015-05-06T10:41:24.484901 #19318]  INFO -- default-precise64: Bringing machine 'default' up with 'virtualbox' provider...
-I, [2015-05-06T10:41:24.651297 #19318]  INFO -- default-precise64: ==> default: Importing base box 'default'...
-I, [2015-05-06T10:41:55.763356 #19318]  INFO -- default-precise64: [KProgress: 10%[KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
-I, [2015-05-06T10:41:56.471582 #19318]  INFO -- default-precise64: ==> default: Setting the name of the VM: kitchen-skeleton-service-cookbook-default-precise64_default_1430934116432_53420
-I, [2015-05-06T10:41:56.791539 #19318]  INFO -- default-precise64: ==> default: Fixed port collision for 22 => 2222. Now on port 2200.
-I, [2015-05-06T10:41:56.854305 #19318]  INFO -- default-precise64: ==> default: Clearing any previously set network interfaces...
-I, [2015-05-06T10:41:56.910384 #19318]  INFO -- default-precise64: ==> default: Preparing network interfaces based on configuration...
-I, [2015-05-06T10:41:56.910777 #19318]  INFO -- default-precise64:     default: Adapter 1: nat
-I, [2015-05-06T10:41:56.959161 #19318]  INFO -- default-precise64: ==> default: Forwarding ports...
-I, [2015-05-06T10:41:57.044508 #19318]  INFO -- default-precise64:     default: 22 => 2200 (adapter 1)
-I, [2015-05-06T10:41:57.186810 #19318]  INFO -- default-precise64: ==> default: Booting VM...
-I, [2015-05-06T10:41:57.511307 #19318]  INFO -- default-precise64: ==> default: Waiting for machine to boot. This may take a few minutes...
-I, [2015-05-06T10:41:57.816276 #19318]  INFO -- default-precise64:     default: SSH address: 127.0.0.1:2200
-I, [2015-05-06T10:41:57.816409 #19318]  INFO -- default-precise64:     default: SSH username: vagrant
-I, [2015-05-06T10:41:57.817892 #19318]  INFO -- default-precise64:     default: SSH auth method: private key
-I, [2015-05-06T10:42:12.983564 #19318]  INFO -- default-precise64:     default: Warning: Connection timeout. Retrying...
-I, [2015-05-06T10:42:13.173723 #19318]  INFO -- default-precise64:     default: Warning: Remote connection disconnect. Retrying...
-I, [2015-05-06T10:42:14.109234 #19318]  INFO -- default-precise64:     default: 
-I, [2015-05-06T10:42:14.109313 #19318]  INFO -- default-precise64:     default: Vagrant insecure key detected. Vagrant will automatically replace
-I, [2015-05-06T10:42:14.109365 #19318]  INFO -- default-precise64:     default: this with a newly generated keypair for better security.
-I, [2015-05-06T10:42:15.375598 #19318]  INFO -- default-precise64:     default: 
-I, [2015-05-06T10:42:15.375669 #19318]  INFO -- default-precise64:     default: Inserting generated public key within guest...
-I, [2015-05-06T10:42:15.507379 #19318]  INFO -- default-precise64:     default: Removing insecure key from the guest if its present...
-I, [2015-05-06T10:42:15.636212 #19318]  INFO -- default-precise64:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
-I, [2015-05-06T10:42:16.522296 #19318]  INFO -- default-precise64: ==> default: Machine booted and ready!
-I, [2015-05-06T10:42:16.522714 #19318]  INFO -- default-precise64: ==> default: Checking for guest additions in VM...
-I, [2015-05-06T10:42:16.564148 #19318]  INFO -- default-precise64:     default: The guest additions on this VM do not match the installed version of
-I, [2015-05-06T10:42:16.564244 #19318]  INFO -- default-precise64:     default: VirtualBox! In most cases this is fine, but in rare cases it can
-I, [2015-05-06T10:42:16.564278 #19318]  INFO -- default-precise64:     default: prevent things such as shared folders from working properly. If you see
-I, [2015-05-06T10:42:16.564304 #19318]  INFO -- default-precise64:     default: shared folder errors, please make sure the guest additions within the
-I, [2015-05-06T10:42:16.564329 #19318]  INFO -- default-precise64:     default: virtual machine match the version of VirtualBox you have installed on
-I, [2015-05-06T10:42:16.564352 #19318]  INFO -- default-precise64:     default: your host and reload your VM.
-I, [2015-05-06T10:42:16.564376 #19318]  INFO -- default-precise64:     default: 
-I, [2015-05-06T10:42:16.564399 #19318]  INFO -- default-precise64:     default: Guest Additions Version: 4.2.6
-I, [2015-05-06T10:42:16.564422 #19318]  INFO -- default-precise64:     default: VirtualBox Version: 4.3
-I, [2015-05-06T10:42:16.565562 #19318]  INFO -- default-precise64: ==> default: Setting hostname...
-I, [2015-05-06T10:42:22.282933 #19318]  INFO -- default-precise64: ==> default: Machine not provisioning because `--no-provision` is specified.
-I, [2015-05-06T10:42:24.351303 #19318]  INFO -- default-precise64: Vagrant instance <default-precise64> created.
-I, [2015-05-06T10:42:24.357475 #19318]  INFO -- default-precise64: Finished creating <default-precise64> (1m0.91s).
-I, [2015-05-06T10:42:24.358002 #19318]  INFO -- default-precise64: -----> Converging <default-precise64>...
-I, [2015-05-06T10:42:24.360533 #19318]  INFO -- default-precise64: Preparing files for transfer
-I, [2015-05-06T10:42:24.360682 #19318]  INFO -- default-precise64: Preparing dna.json
-I, [2015-05-06T10:42:24.361731 #19318]  INFO -- default-precise64: Preparing cookbooks from project directory
-I, [2015-05-06T10:42:24.382910 #19318]  INFO -- default-precise64: Preparing current project directory as a cookbook
-I, [2015-05-06T10:42:24.406853 #19318]  INFO -- default-precise64: Removing non-cookbook files before transfer
-I, [2015-05-06T10:42:24.414502 #19318]  INFO -- default-precise64: Preparing solo.rb
-I, [2015-05-06T10:42:24.489174 #19318]  INFO -- default-precise64: -----> Chef Omnibus installation detected (install only if missing)
-I, [2015-05-06T10:42:24.501284 #19318]  INFO -- default-precise64: Transferring files to <default-precise64>
-I, [2015-05-06T10:42:26.059996 #19318]  INFO -- default-precise64: [2015-05-06T13:42:26-04:00] WARN: 
-I, [2015-05-06T10:42:26.060052 #19318]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:42:26.060073 #19318]  INFO -- default-precise64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
-I, [2015-05-06T10:42:26.060177 #19318]  INFO -- default-precise64: encrypted, but chef is not able to detect forged replies or man in the middle
-I, [2015-05-06T10:42:26.060199 #19318]  INFO -- default-precise64: attacks.
-I, [2015-05-06T10:42:26.060214 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:26.060229 #19318]  INFO -- default-precise64: To fix this issue add an entry like this to your configuration file:
-I, [2015-05-06T10:42:26.060244 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:26.060258 #19318]  INFO -- default-precise64: ```
-I, [2015-05-06T10:42:26.060273 #19318]  INFO -- default-precise64:   # Verify all HTTPS connections (recommended)
-I, [2015-05-06T10:42:26.060297 #19318]  INFO -- default-precise64:   ssl_verify_mode :verify_peer
-I, [2015-05-06T10:42:26.060325 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:26.060356 #19318]  INFO -- default-precise64:   # OR, Verify only connections to chef-server
-I, [2015-05-06T10:42:26.060386 #19318]  INFO -- default-precise64:   verify_api_cert true
-I, [2015-05-06T10:42:26.060413 #19318]  INFO -- default-precise64: ```
-I, [2015-05-06T10:42:26.060464 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:26.060495 #19318]  INFO -- default-precise64: To check your SSL configuration, or troubleshoot errors, you can use the
-I, [2015-05-06T10:42:26.060525 #19318]  INFO -- default-precise64: `knife ssl check` command like so:
-I, [2015-05-06T10:42:26.060552 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:26.060581 #19318]  INFO -- default-precise64: ```
-I, [2015-05-06T10:42:26.060611 #19318]  INFO -- default-precise64:   knife ssl check -c /tmp/kitchen/solo.rb
-I, [2015-05-06T10:42:26.060669 #19318]  INFO -- default-precise64: ```
-I, [2015-05-06T10:42:26.060683 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:26.060697 #19318]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:42:26.060712 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:26.060726 #19318]  INFO -- default-precise64: Starting Chef Client, version 11.12.2
-I, [2015-05-06T10:42:32.948595 #19318]  INFO -- default-precise64: Compiling Cookbooks...
-I, [2015-05-06T10:42:32.952162 #19318]  INFO -- default-precise64: [2015-05-06T13:42:32-04:00] WARN: MissingCookbookDependency:
-I, [2015-05-06T10:42:32.952302 #19318]  INFO -- default-precise64: Recipe `java::default` is not in the run_list, and cookbook 'java'
-I, [2015-05-06T10:42:32.952330 #19318]  INFO -- default-precise64: is not a dependency of any cookbook in the run_list.  To load this recipe,
-I, [2015-05-06T10:42:32.952355 #19318]  INFO -- default-precise64: first add a dependency on cookbook 'java' in the cookbook you're
-I, [2015-05-06T10:42:32.952378 #19318]  INFO -- default-precise64: including it from in that cookbook's metadata.
-I, [2015-05-06T10:42:32.952400 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:32.962692 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:32.962742 #19318]  INFO -- default-precise64: ================================================================================
-I, [2015-05-06T10:42:32.962760 #19318]  INFO -- default-precise64: Recipe Compile Error in /tmp/kitchen/cookbooks/skeleton-service-cookbook/recipes/default.rb
-I, [2015-05-06T10:42:32.962807 #19318]  INFO -- default-precise64: ================================================================================
-I, [2015-05-06T10:42:32.962821 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:32.962833 #19318]  INFO -- default-precise64: NoMethodError
-I, [2015-05-06T10:42:32.962845 #19318]  INFO -- default-precise64: -------------
-I, [2015-05-06T10:42:32.962863 #19318]  INFO -- default-precise64: undefined method `[]' for nil:NilClass
-I, [2015-05-06T10:42:32.962892 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:32.963835 #19318]  INFO -- default-precise64: Cookbook Trace:
-I, [2015-05-06T10:42:32.963868 #19318]  INFO -- default-precise64: ---------------
-I, [2015-05-06T10:42:32.964000 #19318]  INFO -- default-precise64:   /tmp/kitchen/cookbooks/java/recipes/default.rb:21:in `from_file'
-I, [2015-05-06T10:42:32.964138 #19318]  INFO -- default-precise64:   /tmp/kitchen/cookbooks/skeleton-service-cookbook/recipes/default.rb:1:in `from_file'
-I, [2015-05-06T10:42:32.964171 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:32.964197 #19318]  INFO -- default-precise64: Relevant File Content:
-I, [2015-05-06T10:42:32.964222 #19318]  INFO -- default-precise64: ----------------------
-I, [2015-05-06T10:42:32.964247 #19318]  INFO -- default-precise64: /tmp/kitchen/cookbooks/java/recipes/default.rb:
-I, [2015-05-06T10:42:32.964272 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:32.964299 #19318]  INFO -- default-precise64:  14:  # Unless required by applicable law or agreed to in writing, software
-I, [2015-05-06T10:42:32.964324 #19318]  INFO -- default-precise64:  15:  # distributed under the License is distributed on an "AS IS" BASIS,
-I, [2015-05-06T10:42:32.964348 #19318]  INFO -- default-precise64:  16:  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-I, [2015-05-06T10:42:32.964400 #19318]  INFO -- default-precise64:  17:  # See the License for the specific language governing permissions and
-I, [2015-05-06T10:42:32.964427 #19318]  INFO -- default-precise64:  18:  # limitations under the License.
-I, [2015-05-06T10:42:32.964450 #19318]  INFO -- default-precise64:  19:  #
-I, [2015-05-06T10:42:32.964474 #19318]  INFO -- default-precise64:  20:  
-I, [2015-05-06T10:42:32.964582 #19318]  INFO -- default-precise64:  21>> if node['java']['install_flavor'] != 'windows'
-I, [2015-05-06T10:42:32.964622 #19318]  INFO -- default-precise64:  22:    if node['java']['jdk_version'].to_i == 8 and node['java']['install_flavor'] != 'oracle'
-I, [2015-05-06T10:42:32.964665 #19318]  INFO -- default-precise64:  23:      Chef::Application.fatal!("JDK 8 is currently only provided with the Oracle JDK")
-I, [2015-05-06T10:42:32.964741 #19318]  INFO -- default-precise64:  24:    end
-I, [2015-05-06T10:42:32.964773 #19318]  INFO -- default-precise64:  25:  end
-I, [2015-05-06T10:42:32.964831 #19318]  INFO -- default-precise64:  26:  
-I, [2015-05-06T10:42:32.964858 #19318]  INFO -- default-precise64:  27:  include_recipe "java::set_attributes_from_version"
-I, [2015-05-06T10:42:32.964883 #19318]  INFO -- default-precise64:  28:  include_recipe "java::#{node['java']['install_flavor']}"
-I, [2015-05-06T10:42:32.964907 #19318]  INFO -- default-precise64:  29:  
-I, [2015-05-06T10:42:32.964928 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:32.964950 #19318]  INFO -- default-precise64: 
-I, [2015-05-06T10:42:32.964973 #19318]  INFO -- default-precise64: Running handlers:
-I, [2015-05-06T10:42:32.964994 #19318]  INFO -- default-precise64: [2015-05-06T13:42:32-04:00] ERROR: Running exception handlers
-I, [2015-05-06T10:42:32.965016 #19318]  INFO -- default-precise64: Running handlers complete
-I, [2015-05-06T10:42:32.965037 #19318]  INFO -- default-precise64: [2015-05-06T13:42:32-04:00] ERROR: Exception handlers complete
-I, [2015-05-06T10:42:32.994671 #19318]  INFO -- default-precise64: [2015-05-06T13:42:33-04:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
-I, [2015-05-06T10:42:32.995460 #19318]  INFO -- default-precise64: Chef Client failed. 0 resources updated in 6.95653378 seconds
-I, [2015-05-06T10:42:33.017966 #19318]  INFO -- default-precise64: [2015-05-06T13:42:33-04:00] ERROR: undefined method `[]' for nil:NilClass
-I, [2015-05-06T10:42:33.126573 #19318]  INFO -- default-precise64: [2015-05-06T13:42:33-04:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
-E, [2015-05-06T10:42:33.251705 #19318] ERROR -- default-precise64: Converge failed on instance <default-precise64>.
-E, [2015-05-06T10:42:33.252160 #19318] ERROR -- default-precise64: ------Exception-------
-E, [2015-05-06T10:42:33.252257 #19318] ERROR -- default-precise64: Class: Kitchen::ActionFailed
-E, [2015-05-06T10:42:33.252333 #19318] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:42:33.252406 #19318] ERROR -- default-precise64: ---Nested Exception---
-E, [2015-05-06T10:42:33.252604 #19318] ERROR -- default-precise64: Class: Kitchen::SSHFailed
-E, [2015-05-06T10:42:33.252672 #19318] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:42:33.252724 #19318] ERROR -- default-precise64: ------Backtrace-------
-E, [2015-05-06T10:42:33.252769 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:152:in `rescue in run_remote'
-E, [2015-05-06T10:42:33.252812 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:148:in `run_remote'
-E, [2015-05-06T10:42:33.252856 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:50:in `block in converge'
-E, [2015-05-06T10:42:33.252981 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:70:in `initialize'
-E, [2015-05-06T10:42:33.253048 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `new'
-E, [2015-05-06T10:42:33.253107 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `converge'
-E, [2015-05-06T10:42:33.253165 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `public_send'
-E, [2015-05-06T10:42:33.253223 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `block in perform_action'
-E, [2015-05-06T10:42:33.253309 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `call'
-E, [2015-05-06T10:42:33.253348 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `synchronize_or_call'
-E, [2015-05-06T10:42:33.253385 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:381:in `block in action'
-E, [2015-05-06T10:42:33.253426 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
-E, [2015-05-06T10:42:33.253467 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:380:in `action'
-E, [2015-05-06T10:42:33.253498 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `perform_action'
-E, [2015-05-06T10:42:33.253529 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:312:in `converge_action'
-E, [2015-05-06T10:42:33.253563 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:292:in `block in transition_to'
-E, [2015-05-06T10:42:33.253600 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `each'
-E, [2015-05-06T10:42:33.253643 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `transition_to'
-E, [2015-05-06T10:42:33.253681 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:130:in `converge'
-E, [2015-05-06T10:42:33.253720 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `public_send'
-E, [2015-05-06T10:42:33.253907 #19318] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
-E, [2015-05-06T10:42:33.253960 #19318] ERROR -- default-precise64: ----------------------
-I, [2015-05-06T10:43:52.190192 #19429]  INFO -- default-precise64: -----> Converging <default-precise64>...
-I, [2015-05-06T10:43:52.190832 #19429]  INFO -- default-precise64: Preparing files for transfer
-I, [2015-05-06T10:43:52.190900 #19429]  INFO -- default-precise64: Preparing dna.json
-I, [2015-05-06T10:43:52.191288 #19429]  INFO -- default-precise64: Preparing cookbooks from project directory
-I, [2015-05-06T10:43:52.210247 #19429]  INFO -- default-precise64: Preparing current project directory as a cookbook
-I, [2015-05-06T10:43:52.227009 #19429]  INFO -- default-precise64: Removing non-cookbook files before transfer
-I, [2015-05-06T10:43:52.235976 #19429]  INFO -- default-precise64: Preparing solo.rb
-I, [2015-05-06T10:43:52.296780 #19429]  INFO -- default-precise64: -----> Chef Omnibus installation detected (install only if missing)
-I, [2015-05-06T10:43:52.311531 #19429]  INFO -- default-precise64: Transferring files to <default-precise64>
-I, [2015-05-06T10:43:53.209202 #19429]  INFO -- default-precise64: [2015-05-06T13:43:53-04:00] WARN: 
-I, [2015-05-06T10:43:53.209273 #19429]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:43:53.209327 #19429]  INFO -- default-precise64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
-I, [2015-05-06T10:43:53.209356 #19429]  INFO -- default-precise64: encrypted, but chef is not able to detect forged replies or man in the middle
-I, [2015-05-06T10:43:53.209382 #19429]  INFO -- default-precise64: attacks.
-I, [2015-05-06T10:43:53.209404 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:53.209427 #19429]  INFO -- default-precise64: To fix this issue add an entry like this to your configuration file:
-I, [2015-05-06T10:43:53.209451 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:53.209472 #19429]  INFO -- default-precise64: ```
-I, [2015-05-06T10:43:53.209494 #19429]  INFO -- default-precise64:   # Verify all HTTPS connections (recommended)
-I, [2015-05-06T10:43:53.209516 #19429]  INFO -- default-precise64:   ssl_verify_mode :verify_peer
-I, [2015-05-06T10:43:53.209536 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:53.209600 #19429]  INFO -- default-precise64:   # OR, Verify only connections to chef-server
-I, [2015-05-06T10:43:53.209624 #19429]  INFO -- default-precise64:   verify_api_cert true
-I, [2015-05-06T10:43:53.209645 #19429]  INFO -- default-precise64: ```
-I, [2015-05-06T10:43:53.209665 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:53.209685 #19429]  INFO -- default-precise64: To check your SSL configuration, or troubleshoot errors, you can use the
-I, [2015-05-06T10:43:53.209707 #19429]  INFO -- default-precise64: `knife ssl check` command like so:
-I, [2015-05-06T10:43:53.209728 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:53.209749 #19429]  INFO -- default-precise64: ```
-I, [2015-05-06T10:43:53.209770 #19429]  INFO -- default-precise64:   knife ssl check -c /tmp/kitchen/solo.rb
-I, [2015-05-06T10:43:53.209791 #19429]  INFO -- default-precise64: ```
-I, [2015-05-06T10:43:53.209812 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:53.209854 #19429]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:43:53.209877 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:53.209899 #19429]  INFO -- default-precise64: Starting Chef Client, version 11.12.2
-I, [2015-05-06T10:43:59.896791 #19429]  INFO -- default-precise64: Compiling Cookbooks...
-I, [2015-05-06T10:43:59.899312 #19429]  INFO -- default-precise64: [2015-05-06T13:43:59-04:00] WARN: MissingCookbookDependency:
-I, [2015-05-06T10:43:59.899360 #19429]  INFO -- default-precise64: Recipe `java` is not in the run_list, and cookbook 'java'
-I, [2015-05-06T10:43:59.899376 #19429]  INFO -- default-precise64: is not a dependency of any cookbook in the run_list.  To load this recipe,
-I, [2015-05-06T10:43:59.899390 #19429]  INFO -- default-precise64: first add a dependency on cookbook 'java' in the cookbook you're
-I, [2015-05-06T10:43:59.899407 #19429]  INFO -- default-precise64: including it from in that cookbook's metadata.
-I, [2015-05-06T10:43:59.899419 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:59.901773 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:59.901827 #19429]  INFO -- default-precise64: ================================================================================
-I, [2015-05-06T10:43:59.901852 #19429]  INFO -- default-precise64: Recipe Compile Error in /tmp/kitchen/cookbooks/skeleton-service-cookbook/recipes/default.rb
-I, [2015-05-06T10:43:59.901873 #19429]  INFO -- default-precise64: ================================================================================
-I, [2015-05-06T10:43:59.901929 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:59.901948 #19429]  INFO -- default-precise64: NoMethodError
-I, [2015-05-06T10:43:59.901966 #19429]  INFO -- default-precise64: -------------
-I, [2015-05-06T10:43:59.901984 #19429]  INFO -- default-precise64: undefined method `[]' for nil:NilClass
-I, [2015-05-06T10:43:59.902001 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:59.902018 #19429]  INFO -- default-precise64: Cookbook Trace:
-I, [2015-05-06T10:43:59.902055 #19429]  INFO -- default-precise64: ---------------
-I, [2015-05-06T10:43:59.902074 #19429]  INFO -- default-precise64:   /tmp/kitchen/cookbooks/java/recipes/default.rb:21:in `from_file'
-I, [2015-05-06T10:43:59.902093 #19429]  INFO -- default-precise64:   /tmp/kitchen/cookbooks/skeleton-service-cookbook/recipes/default.rb:1:in `from_file'
-I, [2015-05-06T10:43:59.902111 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:59.902127 #19429]  INFO -- default-precise64: Relevant File Content:
-I, [2015-05-06T10:43:59.902148 #19429]  INFO -- default-precise64: ----------------------
-I, [2015-05-06T10:43:59.902210 #19429]  INFO -- default-precise64: /tmp/kitchen/cookbooks/java/recipes/default.rb:
-I, [2015-05-06T10:43:59.902229 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:59.902246 #19429]  INFO -- default-precise64:  14:  # Unless required by applicable law or agreed to in writing, software
-I, [2015-05-06T10:43:59.902264 #19429]  INFO -- default-precise64:  15:  # distributed under the License is distributed on an "AS IS" BASIS,
-I, [2015-05-06T10:43:59.902282 #19429]  INFO -- default-precise64:  16:  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-I, [2015-05-06T10:43:59.902301 #19429]  INFO -- default-precise64:  17:  # See the License for the specific language governing permissions and
-I, [2015-05-06T10:43:59.902320 #19429]  INFO -- default-precise64:  18:  # limitations under the License.
-I, [2015-05-06T10:43:59.902337 #19429]  INFO -- default-precise64:  19:  #
-I, [2015-05-06T10:43:59.902355 #19429]  INFO -- default-precise64:  20:  
-I, [2015-05-06T10:43:59.902373 #19429]  INFO -- default-precise64:  21>> if node['java']['install_flavor'] != 'windows'
-I, [2015-05-06T10:43:59.902392 #19429]  INFO -- default-precise64:  22:    if node['java']['jdk_version'].to_i == 8 and node['java']['install_flavor'] != 'oracle'
-I, [2015-05-06T10:43:59.902412 #19429]  INFO -- default-precise64:  23:      Chef::Application.fatal!("JDK 8 is currently only provided with the Oracle JDK")
-I, [2015-05-06T10:43:59.902429 #19429]  INFO -- default-precise64:  24:    end
-I, [2015-05-06T10:43:59.902446 #19429]  INFO -- default-precise64:  25:  end
-I, [2015-05-06T10:43:59.902498 #19429]  INFO -- default-precise64:  26:  
-I, [2015-05-06T10:43:59.902516 #19429]  INFO -- default-precise64:  27:  include_recipe "java::set_attributes_from_version"
-I, [2015-05-06T10:43:59.902534 #19429]  INFO -- default-precise64:  28:  include_recipe "java::#{node['java']['install_flavor']}"
-I, [2015-05-06T10:43:59.902552 #19429]  INFO -- default-precise64:  29:  
-I, [2015-05-06T10:43:59.902570 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:59.902587 #19429]  INFO -- default-precise64: 
-I, [2015-05-06T10:43:59.902604 #19429]  INFO -- default-precise64: Running handlers:
-I, [2015-05-06T10:43:59.902624 #19429]  INFO -- default-precise64: [2015-05-06T13:43:59-04:00] ERROR: Running exception handlers
-I, [2015-05-06T10:43:59.902648 #19429]  INFO -- default-precise64: Running handlers complete
-I, [2015-05-06T10:43:59.902669 #19429]  INFO -- default-precise64: [2015-05-06T13:43:59-04:00] ERROR: Exception handlers complete
-I, [2015-05-06T10:43:59.926936 #19429]  INFO -- default-precise64: [2015-05-06T13:44:00-04:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
-I, [2015-05-06T10:43:59.926989 #19429]  INFO -- default-precise64: Chef Client failed. 0 resources updated in 6.719053937 seconds
-I, [2015-05-06T10:43:59.936873 #19429]  INFO -- default-precise64: [2015-05-06T13:44:00-04:00] ERROR: undefined method `[]' for nil:NilClass
-I, [2015-05-06T10:43:59.970331 #19429]  INFO -- default-precise64: [2015-05-06T13:44:00-04:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
-E, [2015-05-06T10:44:00.001424 #19429] ERROR -- default-precise64: Converge failed on instance <default-precise64>.
-E, [2015-05-06T10:44:00.001658 #19429] ERROR -- default-precise64: ------Exception-------
-E, [2015-05-06T10:44:00.001689 #19429] ERROR -- default-precise64: Class: Kitchen::ActionFailed
-E, [2015-05-06T10:44:00.001722 #19429] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:44:00.001742 #19429] ERROR -- default-precise64: ---Nested Exception---
-E, [2015-05-06T10:44:00.001758 #19429] ERROR -- default-precise64: Class: Kitchen::SSHFailed
-E, [2015-05-06T10:44:00.001774 #19429] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:44:00.001792 #19429] ERROR -- default-precise64: ------Backtrace-------
-E, [2015-05-06T10:44:00.001813 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:152:in `rescue in run_remote'
-E, [2015-05-06T10:44:00.001840 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:148:in `run_remote'
-E, [2015-05-06T10:44:00.001864 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:50:in `block in converge'
-E, [2015-05-06T10:44:00.001888 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:70:in `initialize'
-E, [2015-05-06T10:44:00.001910 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `new'
-E, [2015-05-06T10:44:00.001927 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `converge'
-E, [2015-05-06T10:44:00.001943 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `public_send'
-E, [2015-05-06T10:44:00.001958 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `block in perform_action'
-E, [2015-05-06T10:44:00.002030 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `call'
-E, [2015-05-06T10:44:00.002047 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `synchronize_or_call'
-E, [2015-05-06T10:44:00.002064 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:381:in `block in action'
-E, [2015-05-06T10:44:00.002085 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
-E, [2015-05-06T10:44:00.002105 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:380:in `action'
-E, [2015-05-06T10:44:00.002132 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `perform_action'
-E, [2015-05-06T10:44:00.002156 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:312:in `converge_action'
-E, [2015-05-06T10:44:00.002178 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:292:in `block in transition_to'
-E, [2015-05-06T10:44:00.002196 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `each'
-E, [2015-05-06T10:44:00.002213 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `transition_to'
-E, [2015-05-06T10:44:00.002230 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:130:in `converge'
-E, [2015-05-06T10:44:00.002246 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `public_send'
-E, [2015-05-06T10:44:00.002262 #19429] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
-E, [2015-05-06T10:44:00.002278 #19429] ERROR -- default-precise64: ----------------------
-I, [2015-05-06T10:45:00.705084 #19458]  INFO -- default-precise64: -----> Converging <default-precise64>...
-I, [2015-05-06T10:45:00.706569 #19458]  INFO -- default-precise64: Preparing files for transfer
-I, [2015-05-06T10:45:00.706688 #19458]  INFO -- default-precise64: Preparing dna.json
-I, [2015-05-06T10:45:00.707051 #19458]  INFO -- default-precise64: Preparing cookbooks from project directory
-I, [2015-05-06T10:45:00.726798 #19458]  INFO -- default-precise64: Preparing current project directory as a cookbook
-I, [2015-05-06T10:45:00.746412 #19458]  INFO -- default-precise64: Removing non-cookbook files before transfer
-I, [2015-05-06T10:45:00.755519 #19458]  INFO -- default-precise64: Preparing solo.rb
-I, [2015-05-06T10:45:00.817133 #19458]  INFO -- default-precise64: -----> Chef Omnibus installation detected (install only if missing)
-I, [2015-05-06T10:45:00.835529 #19458]  INFO -- default-precise64: Transferring files to <default-precise64>
-I, [2015-05-06T10:45:01.736199 #19458]  INFO -- default-precise64: [2015-05-06T13:45:01-04:00] WARN: 
-I, [2015-05-06T10:45:01.736254 #19458]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:45:01.736272 #19458]  INFO -- default-precise64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
-I, [2015-05-06T10:45:01.736286 #19458]  INFO -- default-precise64: encrypted, but chef is not able to detect forged replies or man in the middle
-I, [2015-05-06T10:45:01.736299 #19458]  INFO -- default-precise64: attacks.
-I, [2015-05-06T10:45:01.736346 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:01.736362 #19458]  INFO -- default-precise64: To fix this issue add an entry like this to your configuration file:
-I, [2015-05-06T10:45:01.736375 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:01.736385 #19458]  INFO -- default-precise64: ```
-I, [2015-05-06T10:45:01.736396 #19458]  INFO -- default-precise64:   # Verify all HTTPS connections (recommended)
-I, [2015-05-06T10:45:01.736407 #19458]  INFO -- default-precise64:   ssl_verify_mode :verify_peer
-I, [2015-05-06T10:45:01.736418 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:01.736428 #19458]  INFO -- default-precise64:   # OR, Verify only connections to chef-server
-I, [2015-05-06T10:45:01.736439 #19458]  INFO -- default-precise64:   verify_api_cert true
-I, [2015-05-06T10:45:01.736449 #19458]  INFO -- default-precise64: ```
-I, [2015-05-06T10:45:01.736459 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:01.736472 #19458]  INFO -- default-precise64: To check your SSL configuration, or troubleshoot errors, you can use the
-I, [2015-05-06T10:45:01.736484 #19458]  INFO -- default-precise64: `knife ssl check` command like so:
-I, [2015-05-06T10:45:01.736495 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:01.736517 #19458]  INFO -- default-precise64: ```
-I, [2015-05-06T10:45:01.736528 #19458]  INFO -- default-precise64:   knife ssl check -c /tmp/kitchen/solo.rb
-I, [2015-05-06T10:45:01.736539 #19458]  INFO -- default-precise64: ```
-I, [2015-05-06T10:45:01.736549 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:01.736559 #19458]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:45:01.736570 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:01.736581 #19458]  INFO -- default-precise64: Starting Chef Client, version 11.12.2
-I, [2015-05-06T10:45:08.375501 #19458]  INFO -- default-precise64: Compiling Cookbooks...
-I, [2015-05-06T10:45:08.385766 #19458]  INFO -- default-precise64: [2015-05-06T13:45:08-04:00] WARN: MissingCookbookDependency:
-I, [2015-05-06T10:45:08.385824 #19458]  INFO -- default-precise64: Recipe `java` is not in the run_list, and cookbook 'java'
-I, [2015-05-06T10:45:08.385844 #19458]  INFO -- default-precise64: is not a dependency of any cookbook in the run_list.  To load this recipe,
-I, [2015-05-06T10:45:08.385858 #19458]  INFO -- default-precise64: first add a dependency on cookbook 'java' in the cookbook you're
-I, [2015-05-06T10:45:08.385923 #19458]  INFO -- default-precise64: including it from in that cookbook's metadata.
-I, [2015-05-06T10:45:08.385940 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:08.385952 #19458]  INFO -- default-precise64: [2015-05-06T13:45:08-04:00] WARN: MissingCookbookDependency:
-I, [2015-05-06T10:45:08.385966 #19458]  INFO -- default-precise64: Recipe `java::set_attributes_from_version` is not in the run_list, and cookbook 'java'
-I, [2015-05-06T10:45:08.385978 #19458]  INFO -- default-precise64: is not a dependency of any cookbook in the run_list.  To load this recipe,
-I, [2015-05-06T10:45:08.385991 #19458]  INFO -- default-precise64: first add a dependency on cookbook 'java' in the cookbook you're
-I, [2015-05-06T10:45:08.386003 #19458]  INFO -- default-precise64: including it from in that cookbook's metadata.
-I, [2015-05-06T10:45:08.386015 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:08.399215 #19458]  INFO -- default-precise64: [2015-05-06T13:45:08-04:00] WARN: MissingCookbookDependency:
-I, [2015-05-06T10:45:08.399325 #19458]  INFO -- default-precise64: Recipe `java::oracle` is not in the run_list, and cookbook 'java'
-I, [2015-05-06T10:45:08.399352 #19458]  INFO -- default-precise64: is not a dependency of any cookbook in the run_list.  To load this recipe,
-I, [2015-05-06T10:45:08.399375 #19458]  INFO -- default-precise64: first add a dependency on cookbook 'java' in the cookbook you're
-I, [2015-05-06T10:45:08.399396 #19458]  INFO -- default-precise64: including it from in that cookbook's metadata.
-I, [2015-05-06T10:45:08.399416 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:08.406037 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:08.406103 #19458]  INFO -- default-precise64: ================================================================================
-I, [2015-05-06T10:45:08.406130 #19458]  INFO -- default-precise64: Recipe Compile Error in /tmp/kitchen/cookbooks/skeleton-service-cookbook/recipes/default.rb
-I, [2015-05-06T10:45:08.406153 #19458]  INFO -- default-precise64: ================================================================================
-I, [2015-05-06T10:45:08.406175 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:08.406195 #19458]  INFO -- default-precise64: NoMethodError
-I, [2015-05-06T10:45:08.406215 #19458]  INFO -- default-precise64: -------------
-I, [2015-05-06T10:45:08.406236 #19458]  INFO -- default-precise64: undefined method `[]' for nil:NilClass
-I, [2015-05-06T10:45:08.406255 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:08.406300 #19458]  INFO -- default-precise64: Cookbook Trace:
-I, [2015-05-06T10:45:08.406320 #19458]  INFO -- default-precise64: ---------------
-I, [2015-05-06T10:45:08.406345 #19458]  INFO -- default-precise64:   /tmp/kitchen/cookbooks/java/recipes/oracle.rb:42:in `from_file'
-I, [2015-05-06T10:45:08.406370 #19458]  INFO -- default-precise64:   /tmp/kitchen/cookbooks/java/recipes/default.rb:28:in `from_file'
-I, [2015-05-06T10:45:08.406394 #19458]  INFO -- default-precise64:   /tmp/kitchen/cookbooks/skeleton-service-cookbook/recipes/default.rb:1:in `from_file'
-I, [2015-05-06T10:45:08.406415 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:08.406436 #19458]  INFO -- default-precise64: Relevant File Content:
-I, [2015-05-06T10:45:08.406498 #19458]  INFO -- default-precise64: ----------------------
-I, [2015-05-06T10:45:08.406519 #19458]  INFO -- default-precise64: /tmp/kitchen/cookbooks/java/recipes/oracle.rb:
-I, [2015-05-06T10:45:08.406540 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:08.406560 #19458]  INFO -- default-precise64:  35:    tarball_checksum = node['java']['jdk']['6'][arch]['checksum']
-I, [2015-05-06T10:45:08.406589 #19458]  INFO -- default-precise64:  36:    bin_cmds = node['java']['jdk']['6']['bin_cmds']
-I, [2015-05-06T10:45:08.406606 #19458]  INFO -- default-precise64:  37:  when "7"
-I, [2015-05-06T10:45:08.406624 #19458]  INFO -- default-precise64:  38:    tarball_url = node['java']['jdk']['7'][arch]['url']
-I, [2015-05-06T10:45:08.406665 #19458]  INFO -- default-precise64:  39:    tarball_checksum = node['java']['jdk']['7'][arch]['checksum']
-I, [2015-05-06T10:45:08.406685 #19458]  INFO -- default-precise64:  40:    bin_cmds = node['java']['jdk']['7']['bin_cmds']
-I, [2015-05-06T10:45:08.406703 #19458]  INFO -- default-precise64:  41:  when "8"
-I, [2015-05-06T10:45:08.406721 #19458]  INFO -- default-precise64:  42>>   tarball_url = node['java']['jdk']['8'][arch]['url']
-I, [2015-05-06T10:45:08.406739 #19458]  INFO -- default-precise64:  43:    tarball_checksum = node['java']['jdk']['8'][arch]['checksum']
-I, [2015-05-06T10:45:08.406795 #19458]  INFO -- default-precise64:  44:    bin_cmds = node['java']['jdk']['8']['bin_cmds']
-I, [2015-05-06T10:45:08.406813 #19458]  INFO -- default-precise64:  45:  end
-I, [2015-05-06T10:45:08.406830 #19458]  INFO -- default-precise64:  46:  
-I, [2015-05-06T10:45:08.406847 #19458]  INFO -- default-precise64:  47:  if tarball_url =~ /example.com/
-I, [2015-05-06T10:45:08.406865 #19458]  INFO -- default-precise64:  48:    Chef::Application.fatal!("You must change the download link to your private repository. You can no longer download java directly from http://download.oracle.com without a web broswer")
-I, [2015-05-06T10:45:08.406883 #19458]  INFO -- default-precise64:  49:  end
-I, [2015-05-06T10:45:08.406900 #19458]  INFO -- default-precise64:  50:  
-I, [2015-05-06T10:45:08.406918 #19458]  INFO -- default-precise64:  51:  include_recipe "java::set_java_home"
-I, [2015-05-06T10:45:08.406934 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:08.406951 #19458]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:08.406968 #19458]  INFO -- default-precise64: Running handlers:
-I, [2015-05-06T10:45:08.406986 #19458]  INFO -- default-precise64: [2015-05-06T13:45:08-04:00] ERROR: Running exception handlers
-I, [2015-05-06T10:45:08.407004 #19458]  INFO -- default-precise64: Running handlers complete
-I, [2015-05-06T10:45:08.407053 #19458]  INFO -- default-precise64: [2015-05-06T13:45:08-04:00] ERROR: Exception handlers complete
-I, [2015-05-06T10:45:08.407072 #19458]  INFO -- default-precise64: [2015-05-06T13:45:08-04:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
-I, [2015-05-06T10:45:08.407090 #19458]  INFO -- default-precise64: Chef Client failed. 0 resources updated in 6.679152402 seconds
-I, [2015-05-06T10:45:08.415937 #19458]  INFO -- default-precise64: [2015-05-06T13:45:08-04:00] ERROR: undefined method `[]' for nil:NilClass
-I, [2015-05-06T10:45:08.449169 #19458]  INFO -- default-precise64: [2015-05-06T13:45:08-04:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
-E, [2015-05-06T10:45:08.483984 #19458] ERROR -- default-precise64: Converge failed on instance <default-precise64>.
-E, [2015-05-06T10:45:08.484101 #19458] ERROR -- default-precise64: ------Exception-------
-E, [2015-05-06T10:45:08.484119 #19458] ERROR -- default-precise64: Class: Kitchen::ActionFailed
-E, [2015-05-06T10:45:08.484130 #19458] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:45:08.484150 #19458] ERROR -- default-precise64: ---Nested Exception---
-E, [2015-05-06T10:45:08.484159 #19458] ERROR -- default-precise64: Class: Kitchen::SSHFailed
-E, [2015-05-06T10:45:08.484168 #19458] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:45:08.484177 #19458] ERROR -- default-precise64: ------Backtrace-------
-E, [2015-05-06T10:45:08.484186 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:152:in `rescue in run_remote'
-E, [2015-05-06T10:45:08.484195 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:148:in `run_remote'
-E, [2015-05-06T10:45:08.484213 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:50:in `block in converge'
-E, [2015-05-06T10:45:08.484225 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:70:in `initialize'
-E, [2015-05-06T10:45:08.484234 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `new'
-E, [2015-05-06T10:45:08.484243 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `converge'
-E, [2015-05-06T10:45:08.484252 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `public_send'
-E, [2015-05-06T10:45:08.484261 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `block in perform_action'
-E, [2015-05-06T10:45:08.484271 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `call'
-E, [2015-05-06T10:45:08.484280 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `synchronize_or_call'
-E, [2015-05-06T10:45:08.484305 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:381:in `block in action'
-E, [2015-05-06T10:45:08.484315 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
-E, [2015-05-06T10:45:08.484324 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:380:in `action'
-E, [2015-05-06T10:45:08.484333 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `perform_action'
-E, [2015-05-06T10:45:08.484342 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:312:in `converge_action'
-E, [2015-05-06T10:45:08.484351 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:292:in `block in transition_to'
-E, [2015-05-06T10:45:08.484360 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `each'
-E, [2015-05-06T10:45:08.484369 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `transition_to'
-E, [2015-05-06T10:45:08.484378 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:130:in `converge'
-E, [2015-05-06T10:45:08.484387 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `public_send'
-E, [2015-05-06T10:45:08.484407 #19458] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
-E, [2015-05-06T10:45:08.484416 #19458] ERROR -- default-precise64: ----------------------
-I, [2015-05-06T10:45:36.548564 #19475]  INFO -- default-precise64: -----> Converging <default-precise64>...
-I, [2015-05-06T10:45:36.549504 #19475]  INFO -- default-precise64: Preparing files for transfer
-I, [2015-05-06T10:45:36.549804 #19475]  INFO -- default-precise64: Preparing dna.json
-I, [2015-05-06T10:45:36.550497 #19475]  INFO -- default-precise64: Preparing cookbooks from project directory
-I, [2015-05-06T10:45:36.573476 #19475]  INFO -- default-precise64: Preparing current project directory as a cookbook
-I, [2015-05-06T10:45:36.609579 #19475]  INFO -- default-precise64: Removing non-cookbook files before transfer
-I, [2015-05-06T10:45:36.620030 #19475]  INFO -- default-precise64: Preparing solo.rb
-I, [2015-05-06T10:45:36.685851 #19475]  INFO -- default-precise64: -----> Chef Omnibus installation detected (install only if missing)
-I, [2015-05-06T10:45:36.700287 #19475]  INFO -- default-precise64: Transferring files to <default-precise64>
-I, [2015-05-06T10:45:37.824797 #19475]  INFO -- default-precise64: [2015-05-06T13:45:37-04:00] WARN: 
-I, [2015-05-06T10:45:37.824909 #19475]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:45:37.824952 #19475]  INFO -- default-precise64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
-I, [2015-05-06T10:45:37.824984 #19475]  INFO -- default-precise64: encrypted, but chef is not able to detect forged replies or man in the middle
-I, [2015-05-06T10:45:37.825028 #19475]  INFO -- default-precise64: attacks.
-I, [2015-05-06T10:45:37.825055 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:37.825079 #19475]  INFO -- default-precise64: To fix this issue add an entry like this to your configuration file:
-I, [2015-05-06T10:45:37.825104 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:37.825129 #19475]  INFO -- default-precise64: ```
-I, [2015-05-06T10:45:37.825152 #19475]  INFO -- default-precise64:   # Verify all HTTPS connections (recommended)
-I, [2015-05-06T10:45:37.825177 #19475]  INFO -- default-precise64:   ssl_verify_mode :verify_peer
-I, [2015-05-06T10:45:37.825199 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:37.825272 #19475]  INFO -- default-precise64:   # OR, Verify only connections to chef-server
-I, [2015-05-06T10:45:37.825297 #19475]  INFO -- default-precise64:   verify_api_cert true
-I, [2015-05-06T10:45:37.825318 #19475]  INFO -- default-precise64: ```
-I, [2015-05-06T10:45:37.825341 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:37.825362 #19475]  INFO -- default-precise64: To check your SSL configuration, or troubleshoot errors, you can use the
-I, [2015-05-06T10:45:37.825384 #19475]  INFO -- default-precise64: `knife ssl check` command like so:
-I, [2015-05-06T10:45:37.825405 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:37.825425 #19475]  INFO -- default-precise64: ```
-I, [2015-05-06T10:45:37.825446 #19475]  INFO -- default-precise64:   knife ssl check -c /tmp/kitchen/solo.rb
-I, [2015-05-06T10:45:37.825467 #19475]  INFO -- default-precise64: ```
-I, [2015-05-06T10:45:37.825486 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:37.825506 #19475]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:45:37.825527 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:37.825549 #19475]  INFO -- default-precise64: Starting Chef Client, version 11.12.2
-I, [2015-05-06T10:45:45.004128 #19475]  INFO -- default-precise64: Compiling Cookbooks...
-I, [2015-05-06T10:45:45.004184 #19475]  INFO -- default-precise64: [2015-05-06T13:45:45-04:00] WARN: MissingCookbookDependency:
-I, [2015-05-06T10:45:45.004203 #19475]  INFO -- default-precise64: Recipe `java::default` is not in the run_list, and cookbook 'java'
-I, [2015-05-06T10:45:45.004218 #19475]  INFO -- default-precise64: is not a dependency of any cookbook in the run_list.  To load this recipe,
-I, [2015-05-06T10:45:45.004232 #19475]  INFO -- default-precise64: first add a dependency on cookbook 'java' in the cookbook you're
-I, [2015-05-06T10:45:45.004299 #19475]  INFO -- default-precise64: including it from in that cookbook's metadata.
-I, [2015-05-06T10:45:45.004313 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:45.004326 #19475]  INFO -- default-precise64: [2015-05-06T13:45:45-04:00] WARN: MissingCookbookDependency:
-I, [2015-05-06T10:45:45.004340 #19475]  INFO -- default-precise64: Recipe `java::set_attributes_from_version` is not in the run_list, and cookbook 'java'
-I, [2015-05-06T10:45:45.004353 #19475]  INFO -- default-precise64: is not a dependency of any cookbook in the run_list.  To load this recipe,
-I, [2015-05-06T10:45:45.004366 #19475]  INFO -- default-precise64: first add a dependency on cookbook 'java' in the cookbook you're
-I, [2015-05-06T10:45:45.004380 #19475]  INFO -- default-precise64: including it from in that cookbook's metadata.
-I, [2015-05-06T10:45:45.004392 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:45.004405 #19475]  INFO -- default-precise64: [2015-05-06T13:45:45-04:00] WARN: MissingCookbookDependency:
-I, [2015-05-06T10:45:45.004436 #19475]  INFO -- default-precise64: Recipe `java::oracle` is not in the run_list, and cookbook 'java'
-I, [2015-05-06T10:45:45.004452 #19475]  INFO -- default-precise64: is not a dependency of any cookbook in the run_list.  To load this recipe,
-I, [2015-05-06T10:45:45.004465 #19475]  INFO -- default-precise64: first add a dependency on cookbook 'java' in the cookbook you're
-I, [2015-05-06T10:45:45.004478 #19475]  INFO -- default-precise64: including it from in that cookbook's metadata.
-I, [2015-05-06T10:45:45.004507 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:45.004524 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:45.004537 #19475]  INFO -- default-precise64: ================================================================================
-I, [2015-05-06T10:45:45.004550 #19475]  INFO -- default-precise64: Recipe Compile Error in /tmp/kitchen/cookbooks/skeleton-service-cookbook/recipes/default.rb
-I, [2015-05-06T10:45:45.004563 #19475]  INFO -- default-precise64: ================================================================================
-I, [2015-05-06T10:45:45.004576 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:45.004588 #19475]  INFO -- default-precise64: NoMethodError
-I, [2015-05-06T10:45:45.004600 #19475]  INFO -- default-precise64: -------------
-I, [2015-05-06T10:45:45.004613 #19475]  INFO -- default-precise64: undefined method `[]' for nil:NilClass
-I, [2015-05-06T10:45:45.004625 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:45.004637 #19475]  INFO -- default-precise64: Cookbook Trace:
-I, [2015-05-06T10:45:45.004668 #19475]  INFO -- default-precise64: ---------------
-I, [2015-05-06T10:45:45.004681 #19475]  INFO -- default-precise64:   /tmp/kitchen/cookbooks/java/recipes/oracle.rb:42:in `from_file'
-I, [2015-05-06T10:45:45.004695 #19475]  INFO -- default-precise64:   /tmp/kitchen/cookbooks/java/recipes/default.rb:28:in `from_file'
-I, [2015-05-06T10:45:45.004708 #19475]  INFO -- default-precise64:   /tmp/kitchen/cookbooks/skeleton-service-cookbook/recipes/default.rb:1:in `from_file'
-I, [2015-05-06T10:45:45.004720 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:45.004732 #19475]  INFO -- default-precise64: Relevant File Content:
-I, [2015-05-06T10:45:45.004745 #19475]  INFO -- default-precise64: ----------------------
-I, [2015-05-06T10:45:45.004757 #19475]  INFO -- default-precise64: /tmp/kitchen/cookbooks/java/recipes/oracle.rb:
-I, [2015-05-06T10:45:45.004769 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:45.004782 #19475]  INFO -- default-precise64:  35:    tarball_checksum = node['java']['jdk']['6'][arch]['checksum']
-I, [2015-05-06T10:45:45.004795 #19475]  INFO -- default-precise64:  36:    bin_cmds = node['java']['jdk']['6']['bin_cmds']
-I, [2015-05-06T10:45:45.004835 #19475]  INFO -- default-precise64:  37:  when "7"
-I, [2015-05-06T10:45:45.004850 #19475]  INFO -- default-precise64:  38:    tarball_url = node['java']['jdk']['7'][arch]['url']
-I, [2015-05-06T10:45:45.004863 #19475]  INFO -- default-precise64:  39:    tarball_checksum = node['java']['jdk']['7'][arch]['checksum']
-I, [2015-05-06T10:45:45.004876 #19475]  INFO -- default-precise64:  40:    bin_cmds = node['java']['jdk']['7']['bin_cmds']
-I, [2015-05-06T10:45:45.004889 #19475]  INFO -- default-precise64:  41:  when "8"
-I, [2015-05-06T10:45:45.004902 #19475]  INFO -- default-precise64:  42>>   tarball_url = node['java']['jdk']['8'][arch]['url']
-I, [2015-05-06T10:45:45.004915 #19475]  INFO -- default-precise64:  43:    tarball_checksum = node['java']['jdk']['8'][arch]['checksum']
-I, [2015-05-06T10:45:45.004928 #19475]  INFO -- default-precise64:  44:    bin_cmds = node['java']['jdk']['8']['bin_cmds']
-I, [2015-05-06T10:45:45.004941 #19475]  INFO -- default-precise64:  45:  end
-I, [2015-05-06T10:45:45.004953 #19475]  INFO -- default-precise64:  46:  
-I, [2015-05-06T10:45:45.004966 #19475]  INFO -- default-precise64:  47:  if tarball_url =~ /example.com/
-I, [2015-05-06T10:45:45.004980 #19475]  INFO -- default-precise64:  48:    Chef::Application.fatal!("You must change the download link to your private repository. You can no longer download java directly from http://download.oracle.com without a web broswer")
-I, [2015-05-06T10:45:45.005030 #19475]  INFO -- default-precise64:  49:  end
-I, [2015-05-06T10:45:45.005045 #19475]  INFO -- default-precise64:  50:  
-I, [2015-05-06T10:45:45.005057 #19475]  INFO -- default-precise64:  51:  include_recipe "java::set_java_home"
-I, [2015-05-06T10:45:45.005070 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:45.005082 #19475]  INFO -- default-precise64: 
-I, [2015-05-06T10:45:45.005095 #19475]  INFO -- default-precise64: Running handlers:
-I, [2015-05-06T10:45:45.005107 #19475]  INFO -- default-precise64: [2015-05-06T13:45:45-04:00] ERROR: Running exception handlers
-I, [2015-05-06T10:45:45.005120 #19475]  INFO -- default-precise64: Running handlers complete
-I, [2015-05-06T10:45:45.005133 #19475]  INFO -- default-precise64: [2015-05-06T13:45:45-04:00] ERROR: Exception handlers complete
-I, [2015-05-06T10:45:45.005146 #19475]  INFO -- default-precise64: [2015-05-06T13:45:45-04:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
-I, [2015-05-06T10:45:45.005159 #19475]  INFO -- default-precise64: Chef Client failed. 0 resources updated in 7.195514749 seconds
-I, [2015-05-06T10:45:45.022851 #19475]  INFO -- default-precise64: [2015-05-06T13:45:45-04:00] ERROR: undefined method `[]' for nil:NilClass
-I, [2015-05-06T10:45:45.047992 #19475]  INFO -- default-precise64: [2015-05-06T13:45:45-04:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
-E, [2015-05-06T10:45:45.075942 #19475] ERROR -- default-precise64: Converge failed on instance <default-precise64>.
-E, [2015-05-06T10:45:45.076041 #19475] ERROR -- default-precise64: ------Exception-------
-E, [2015-05-06T10:45:45.076062 #19475] ERROR -- default-precise64: Class: Kitchen::ActionFailed
-E, [2015-05-06T10:45:45.076121 #19475] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:45:45.076132 #19475] ERROR -- default-precise64: ---Nested Exception---
-E, [2015-05-06T10:45:45.076142 #19475] ERROR -- default-precise64: Class: Kitchen::SSHFailed
-E, [2015-05-06T10:45:45.076152 #19475] ERROR -- default-precise64: Message: SSH exited (1) for command: [sh -c '
-sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json
-']
-E, [2015-05-06T10:45:45.076161 #19475] ERROR -- default-precise64: ------Backtrace-------
-E, [2015-05-06T10:45:45.076170 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:152:in `rescue in run_remote'
-E, [2015-05-06T10:45:45.076180 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:148:in `run_remote'
-E, [2015-05-06T10:45:45.076190 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:50:in `block in converge'
-E, [2015-05-06T10:45:45.076199 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:70:in `initialize'
-E, [2015-05-06T10:45:45.076209 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `new'
-E, [2015-05-06T10:45:45.076218 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:45:in `converge'
-E, [2015-05-06T10:45:45.076228 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `public_send'
-E, [2015-05-06T10:45:45.076237 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `block in perform_action'
-E, [2015-05-06T10:45:45.076246 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `call'
-E, [2015-05-06T10:45:45.076265 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:416:in `synchronize_or_call'
-E, [2015-05-06T10:45:45.076276 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:381:in `block in action'
-E, [2015-05-06T10:45:45.076286 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
-E, [2015-05-06T10:45:45.076295 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:380:in `action'
-E, [2015-05-06T10:45:45.076305 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:352:in `perform_action'
-E, [2015-05-06T10:45:45.076335 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:312:in `converge_action'
-E, [2015-05-06T10:45:45.076345 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:292:in `block in transition_to'
-E, [2015-05-06T10:45:45.076354 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `each'
-E, [2015-05-06T10:45:45.076364 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:291:in `transition_to'
-E, [2015-05-06T10:45:45.076373 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:130:in `converge'
-E, [2015-05-06T10:45:45.076383 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `public_send'
-E, [2015-05-06T10:45:45.076393 #19475] ERROR -- default-precise64: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
-E, [2015-05-06T10:45:45.076402 #19475] ERROR -- default-precise64: ----------------------
-I, [2015-05-06T10:46:18.378336 #19493]  INFO -- default-precise64: -----> Converging <default-precise64>...
-I, [2015-05-06T10:46:18.379238 #19493]  INFO -- default-precise64: Preparing files for transfer
-I, [2015-05-06T10:46:18.379300 #19493]  INFO -- default-precise64: Preparing dna.json
-I, [2015-05-06T10:46:18.379638 #19493]  INFO -- default-precise64: Preparing cookbooks from project directory
-I, [2015-05-06T10:46:18.398504 #19493]  INFO -- default-precise64: Preparing current project directory as a cookbook
-I, [2015-05-06T10:46:18.416567 #19493]  INFO -- default-precise64: Removing non-cookbook files before transfer
-I, [2015-05-06T10:46:18.423911 #19493]  INFO -- default-precise64: Preparing solo.rb
-I, [2015-05-06T10:46:18.499110 #19493]  INFO -- default-precise64: -----> Chef Omnibus installation detected (install only if missing)
-I, [2015-05-06T10:46:18.514344 #19493]  INFO -- default-precise64: Transferring files to <default-precise64>
-I, [2015-05-06T10:46:19.603478 #19493]  INFO -- default-precise64: [2015-05-06T13:46:19-04:00] WARN: 
-I, [2015-05-06T10:46:19.603531 #19493]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:46:19.603549 #19493]  INFO -- default-precise64: SSL validation of HTTPS requests is disabled. HTTPS connections are still
-I, [2015-05-06T10:46:19.603563 #19493]  INFO -- default-precise64: encrypted, but chef is not able to detect forged replies or man in the middle
-I, [2015-05-06T10:46:19.603576 #19493]  INFO -- default-precise64: attacks.
-I, [2015-05-06T10:46:19.603588 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:46:19.603600 #19493]  INFO -- default-precise64: To fix this issue add an entry like this to your configuration file:
-I, [2015-05-06T10:46:19.603612 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:46:19.603624 #19493]  INFO -- default-precise64: ```
-I, [2015-05-06T10:46:19.603636 #19493]  INFO -- default-precise64:   # Verify all HTTPS connections (recommended)
-I, [2015-05-06T10:46:19.603647 #19493]  INFO -- default-precise64:   ssl_verify_mode :verify_peer
-I, [2015-05-06T10:46:19.603659 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:46:19.603692 #19493]  INFO -- default-precise64:   # OR, Verify only connections to chef-server
-I, [2015-05-06T10:46:19.603707 #19493]  INFO -- default-precise64:   verify_api_cert true
-I, [2015-05-06T10:46:19.603719 #19493]  INFO -- default-precise64: ```
-I, [2015-05-06T10:46:19.603742 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:46:19.603754 #19493]  INFO -- default-precise64: To check your SSL configuration, or troubleshoot errors, you can use the
-I, [2015-05-06T10:46:19.603766 #19493]  INFO -- default-precise64: `knife ssl check` command like so:
-I, [2015-05-06T10:46:19.603777 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:46:19.603789 #19493]  INFO -- default-precise64: ```
-I, [2015-05-06T10:46:19.603800 #19493]  INFO -- default-precise64:   knife ssl check -c /tmp/kitchen/solo.rb
-I, [2015-05-06T10:46:19.603811 #19493]  INFO -- default-precise64: ```
-I, [2015-05-06T10:46:19.603823 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:46:19.603835 #19493]  INFO -- default-precise64: * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-I, [2015-05-06T10:46:19.603873 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:46:19.603885 #19493]  INFO -- default-precise64: Starting Chef Client, version 11.12.2
-I, [2015-05-06T10:46:26.511457 #19493]  INFO -- default-precise64: Compiling Cookbooks...
-I, [2015-05-06T10:46:26.531777 #19493]  INFO -- default-precise64: Converging 4 resources
-I, [2015-05-06T10:46:26.531886 #19493]  INFO -- default-precise64: Recipe: java::set_java_home
-I, [2015-05-06T10:46:26.535893 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:46:26.535944 #19493]  INFO -- default-precise64:     - execute the ruby block set-env-java-home
-I, [2015-05-06T10:46:26.535961 #19493]  INFO -- default-precise64:   * directory[/etc/profile.d] action create (up to date)
-I, [2015-05-06T10:46:26.536019 #19493]  INFO -- default-precise64:   * file[/etc/profile.d/jdk.sh] action create
-I, [2015-05-06T10:46:26.537773 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:46:26.537829 #19493]  INFO -- default-precise64:     - update content in file /etc/profile.d/jdk.sh from none to 26187d
-I, [2015-05-06T10:46:26.537894 #19493]  INFO -- default-precise64:  --- /etc/profile.d/jdk.sh	2015-05-06 13:46:26.733950691 -0400
-I, [2015-05-06T10:46:26.537971 #19493]  INFO -- default-precise64:  +++ /tmp/.jdk.sh20150506-3538-w7947k	2015-05-06 13:46:26.733950691 -0400
-I, [2015-05-06T10:46:26.537999 #19493]  INFO -- default-precise64:  @@ -1 +1,2 @@
-I, [2015-05-06T10:46:26.538022 #19493]  INFO -- default-precise64:  +export JAVA_HOME=/usr/lib/jvm/java
-I, [2015-05-06T10:46:26.539168 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:46:26.539205 #19493]  INFO -- default-precise64: Recipe: java::oracle
-I, [2015-05-06T10:46:26.541231 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:46:26.542440 #19493]  INFO -- default-precise64: Recipe: <Dynamically Defined Resource>
-I, [2015-05-06T10:49:30.074211 #19493]  INFO -- default-precise64:  (up to date)
-I, [2015-05-06T10:50:28.611937 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:32.878962 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:32.879268 #19493]  INFO -- default-precise64:     - extract compressed data into Chef file cache path and
-I, [2015-05-06T10:50:32.880328 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:32.881314 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:32.881351 #19493]  INFO -- default-precise64:   * package[curl] action nothing (skipped due to action :nothing)
-I, [2015-05-06T10:50:33.033285 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:33.194112 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:33.338676 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:33.479523 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:33.622055 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:33.764457 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:33.909198 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:34.044921 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:34.162646 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:34.300441 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:34.438109 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:34.646779 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:34.985630 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:35.419762 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:35.840134 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:36.406883 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:36.843983 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:37.359482 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:37.954308 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:38.499362 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:39.086321 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:39.277606 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:39.461870 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:39.635718 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:39.808634 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:39.975573 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:40.129469 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:40.274483 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:40.441659 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:40.597307 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:40.741121 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:40.883156 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:41.027204 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:41.311794 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:41.756983 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:42.214591 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:42.716374 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:43.137495 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:43.587677 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:44.025207 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:44.459275 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:44.893743 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:45.298655 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:45.489935 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:45.660130 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:45.837874 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:45.874148 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:45.876649 #19493]  INFO -- default-precise64: 
-I, [2015-05-06T10:50:45.876729 #19493]  INFO -- default-precise64: Running handlers:
-I, [2015-05-06T10:50:45.876748 #19493]  INFO -- default-precise64: Running handlers complete
-I, [2015-05-06T10:50:45.877808 #19493]  INFO -- default-precise64: Chef Client finished, 4/6 resources updated in 266.360379155 seconds
-I, [2015-05-06T10:50:46.015488 #19493]  INFO -- default-precise64: Finished converging <default-precise64> (4m27.63s).
-I, [2015-05-06T10:52:48.784262 #19507]  INFO -- default-precise64: -----> Setting up <default-precise64>...
-I, [2015-05-06T10:53:12.175942 #19507]  INFO -- default-precise64: Fetching: thor-0.19.0.gemFetching: thor-0.19.0.gem (  6%)Fetching: thor-0.19.0.gem ( 15%)Fetching: thor-0.19.0.gem ( 19%)Fetching: thor-0.19.0.gem ( 27%)Fetching: thor-0.19.0.gem ( 31%)Fetching: thor-0.19.0.gem ( 34%)Fetching: thor-0.19.0.gem ( 39%)Fetching: thor-0.19.0.gem ( 42%)Fetching: thor-0.19.0.gem ( 60%)Fetching: thor-0.19.0.gem ( 62%)Fetching: thor-0.19.0.gem ( 63%)Fetching: thor-0.19.0.gem ( 68%)Fetching: thor-0.19.0.gem ( 71%)Fetching: thor-0.19.0.gem ( 75%)Fetching: thor-0.19.0.gem ( 83%)Fetching: thor-0.19.0.gem ( 87%)Fetching: thor-0.19.0.gem ( 89%)Fetching: thor-0.19.0.gem ( 95%)Fetching: thor-0.19.0.gem (100%)Fetching: thor-0.19.0.gem (100%)
-I, [2015-05-06T10:53:12.264313 #19507]  INFO -- default-precise64: Fetching: busser-0.7.1.gemFetching: busser-0.7.1.gem ( 64%)Fetching: busser-0.7.1.gem (100%)Fetching: busser-0.7.1.gem (100%)
-I, [2015-05-06T10:53:12.276203 #19507]  INFO -- default-precise64: Successfully installed thor-0.19.0
-I, [2015-05-06T10:53:12.276285 #19507]  INFO -- default-precise64: Successfully installed busser-0.7.1
-I, [2015-05-06T10:53:12.276317 #19507]  INFO -- default-precise64: 2 gems installed
-I, [2015-05-06T10:53:12.484674 #19507]  INFO -- default-precise64: -----> Setting up Busser
-I, [2015-05-06T10:53:12.484781 #19507]  INFO -- default-precise64: Creating BUSSER_ROOT in /tmp/busser
-I, [2015-05-06T10:53:12.484815 #19507]  INFO -- default-precise64: Creating busser binstub
-I, [2015-05-06T10:53:31.068638 #19507]  INFO -- default-precise64: Plugin serverspec installed (version 0.5.6)
-I, [2015-05-06T10:53:31.078688 #19507]  INFO -- default-precise64: -----> Running postinstall for serverspec plugin
-I, [2015-05-06T10:53:31.459984 #19507]  INFO -- default-precise64: Finished setting up <default-precise64> (0m42.67s).
-I, [2015-05-06T10:53:31.460302 #19507]  INFO -- default-precise64: -----> Verifying <default-precise64>...
-I, [2015-05-06T10:53:31.682023 #19507]  INFO -- default-precise64: Suite path directory /tmp/busser/suites does not exist, skipping.
-I, [2015-05-06T10:53:31.897081 #19507]  INFO -- default-precise64: Uploading /tmp/busser/suites/serverspec/java_spec.rb (mode=0644)
-I, [2015-05-06T10:53:32.597032 #19507]  INFO -- default-precise64: Uploading /tmp/busser/suites/serverspec/spec_helper.rb (mode=0644)
-I, [2015-05-06T10:53:33.076761 #19507]  INFO -- default-precise64: -----> Running serverspec test suite
-I, [2015-05-06T10:53:33.103337 #19507]  INFO -- default-precise64: -----> Installing Serverspec..
-I, [2015-05-06T10:53:58.023382 #19507]  INFO -- default-precise64: Fetching: rspec-support-3.2.2.gemFetching: rspec-support-3.2.2.gem ( 19%)Fetching: rspec-support-3.2.2.gem ( 52%)Fetching: rspec-support-3.2.2.gem ( 68%)Fetching: rspec-support-3.2.2.gem (100%)Fetching: rspec-support-3.2.2.gem (100%)
-I, [2015-05-06T10:53:58.333967 #19507]  INFO -- default-precise64: Fetching: rspec-core-3.2.3.gemFetching: rspec-core-3.2.3.gem (  4%)Fetching: rspec-core-3.2.3.gem ( 16%)Fetching: rspec-core-3.2.3.gem ( 17%)Fetching: rspec-core-3.2.3.gem ( 19%)Fetching: rspec-core-3.2.3.gem ( 20%)Fetching: rspec-core-3.2.3.gem ( 24%)Fetching: rspec-core-3.2.3.gem ( 34%)Fetching: rspec-core-3.2.3.gem ( 36%)Fetching: rspec-core-3.2.3.gem ( 38%)Fetching: rspec-core-3.2.3.gem ( 40%)Fetching: rspec-core-3.2.3.gem ( 43%)Fetching: rspec-core-3.2.3.gem ( 48%)Fetching: rspec-core-3.2.3.gem ( 52%)Fetching: rspec-core-3.2.3.gem ( 66%)Fetching: rspec-core-3.2.3.gem ( 71%)Fetching: rspec-core-3.2.3.gem ( 73%)Fetching: rspec-core-3.2.3.gem ( 86%)Fetching: rspec-core-3.2.3.gem ( 99%)Fetching: rspec-core-3.2.3.gem (100%)Fetching: rspec-core-3.2.3.gem (100%)
-I, [2015-05-06T10:53:58.500718 #19507]  INFO -- default-precise64: Fetching: diff-lcs-1.2.5.gemFetching: diff-lcs-1.2.5.gem ( 19%)Fetching: diff-lcs-1.2.5.gem ( 52%)Fetching: diff-lcs-1.2.5.gem ( 64%)Fetching: diff-lcs-1.2.5.gem ( 92%)Fetching: diff-lcs-1.2.5.gem ( 98%)Fetching: diff-lcs-1.2.5.gem (100%)Fetching: diff-lcs-1.2.5.gem (100%)
-I, [2015-05-06T10:53:58.609461 #19507]  INFO -- default-precise64: Fetching: rspec-expectations-3.2.1.gemFetching: rspec-expectations-3.2.1.gem ( 18%)Fetching: rspec-expectations-3.2.1.gem ( 30%)Fetching: rspec-expectations-3.2.1.gem ( 46%)Fetching: rspec-expectations-3.2.1.gem ( 52%)Fetching: rspec-expectations-3.2.1.gem ( 62%)Fetching: rspec-expectations-3.2.1.gem ( 71%)Fetching: rspec-expectations-3.2.1.gem ( 73%)Fetching: rspec-expectations-3.2.1.gem ( 81%)Fetching: rspec-expectations-3.2.1.gem ( 89%)Fetching: rspec-expectations-3.2.1.gem ( 93%)Fetching: rspec-expectations-3.2.1.gem ( 95%)Fetching: rspec-expectations-3.2.1.gem ( 97%)Fetching: rspec-expectations-3.2.1.gem (100%)Fetching: rspec-expectations-3.2.1.gem (100%)
-I, [2015-05-06T10:53:58.721277 #19507]  INFO -- default-precise64: Fetching: rspec-mocks-3.2.1.gemFetching: rspec-mocks-3.2.1.gem (  9%)Fetching: rspec-mocks-3.2.1.gem ( 19%)Fetching: rspec-mocks-3.2.1.gem ( 29%)Fetching: rspec-mocks-3.2.1.gem ( 33%)Fetching: rspec-mocks-3.2.1.gem ( 35%)Fetching: rspec-mocks-3.2.1.gem ( 40%)Fetching: rspec-mocks-3.2.1.gem ( 50%)Fetching: rspec-mocks-3.2.1.gem ( 52%)Fetching: rspec-mocks-3.2.1.gem ( 58%)Fetching: rspec-mocks-3.2.1.gem ( 62%)Fetching: rspec-mocks-3.2.1.gem ( 66%)Fetching: rspec-mocks-3.2.1.gem ( 71%)Fetching: rspec-mocks-3.2.1.gem ( 79%)Fetching: rspec-mocks-3.2.1.gem ( 85%)Fetching: rspec-mocks-3.2.1.gem ( 93%)Fetching: rspec-mocks-3.2.1.gem ( 95%)Fetching: rspec-mocks-3.2.1.gem (100%)Fetching: rspec-mocks-3.2.1.gem (100%)
-I, [2015-05-06T10:53:58.899632 #19507]  INFO -- default-precise64: Fetching: rspec-3.2.0.gemFetching: rspec-3.2.0.gem (100%)Fetching: rspec-3.2.0.gem (100%)
-I, [2015-05-06T10:53:58.992023 #19507]  INFO -- default-precise64: Fetching: rspec-its-1.2.0.gemFetching: rspec-its-1.2.0.gem (100%)Fetching: rspec-its-1.2.0.gem (100%)
-I, [2015-05-06T10:53:59.076763 #19507]  INFO -- default-precise64: Fetching: multi_json-1.11.0.gemFetching: multi_json-1.11.0.gem ( 54%)Fetching: multi_json-1.11.0.gem (100%)Fetching: multi_json-1.11.0.gem (100%)
-I, [2015-05-06T10:53:59.270717 #19507]  INFO -- default-precise64: Fetching: net-ssh-2.9.2.gemFetching: net-ssh-2.9.2.gem (  9%)Fetching: net-ssh-2.9.2.gem ( 18%)Fetching: net-ssh-2.9.2.gem ( 27%)Fetching: net-ssh-2.9.2.gem ( 30%)Fetching: net-ssh-2.9.2.gem ( 38%)Fetching: net-ssh-2.9.2.gem ( 43%)Fetching: net-ssh-2.9.2.gem ( 52%)Fetching: net-ssh-2.9.2.gem ( 61%)Fetching: net-ssh-2.9.2.gem ( 62%)Fetching: net-ssh-2.9.2.gem ( 67%)Fetching: net-ssh-2.9.2.gem ( 69%)Fetching: net-ssh-2.9.2.gem ( 79%)Fetching: net-ssh-2.9.2.gem ( 86%)Fetching: net-ssh-2.9.2.gem ( 92%)Fetching: net-ssh-2.9.2.gem ( 94%)Fetching: net-ssh-2.9.2.gem ( 97%)Fetching: net-ssh-2.9.2.gem (100%)Fetching: net-ssh-2.9.2.gem (100%)
-I, [2015-05-06T10:53:59.587021 #19507]  INFO -- default-precise64: Fetching: net-scp-1.2.1.gemFetching: net-scp-1.2.1.gem ( 41%)Fetching: net-scp-1.2.1.gem ( 62%)Fetching: net-scp-1.2.1.gem ( 70%)Fetching: net-scp-1.2.1.gem ( 79%)Fetching: net-scp-1.2.1.gem ( 91%)Fetching: net-scp-1.2.1.gem (100%)Fetching: net-scp-1.2.1.gem (100%)
-I, [2015-05-06T10:53:59.686220 #19507]  INFO -- default-precise64: Fetching: specinfra-2.31.0.gemFetching: specinfra-2.31.0.gem ( 10%)Fetching: specinfra-2.31.0.gem ( 23%)Fetching: specinfra-2.31.0.gem ( 54%)Fetching: specinfra-2.31.0.gem ( 76%)Fetching: specinfra-2.31.0.gem ( 79%)Fetching: specinfra-2.31.0.gem ( 87%)Fetching: specinfra-2.31.0.gem ( 95%)Fetching: specinfra-2.31.0.gem (100%)Fetching: specinfra-2.31.0.gem (100%)
-I, [2015-05-06T10:53:59.864198 #19507]  INFO -- default-precise64: Fetching: serverspec-2.15.0.gemFetching: serverspec-2.15.0.gem ( 47%)Fetching: serverspec-2.15.0.gem ( 95%)Fetching: serverspec-2.15.0.gem (100%)Fetching: serverspec-2.15.0.gem (100%)
-I, [2015-05-06T10:53:59.939131 #19507]  INFO -- default-precise64: -----> serverspec installed (version 2.15.0)
-I, [2015-05-06T10:54:00.127746 #19507]  INFO -- default-precise64: /opt/chef/embedded/bin/ruby -I/tmp/busser/suites/serverspec -I/tmp/busser/gems/gems/rspec-support-3.2.2/lib:/tmp/busser/gems/gems/rspec-core-3.2.3/lib /opt/chef/embedded/bin/rspec --pattern /tmp/busser/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/busser/suites/serverspec
-I, [2015-05-06T10:54:00.607366 #19507]  INFO -- default-precise64: 
-I, [2015-05-06T10:54:00.607423 #19507]  INFO -- default-precise64: Command "java -version"
-I, [2015-05-06T10:54:00.607441 #19507]  INFO -- default-precise64:   exit_status
-I, [2015-05-06T10:54:01.051782 #19507]  INFO -- default-precise64: [32m    should eq 0[0m
-I, [2015-05-06T10:54:01.055780 #19507]  INFO -- default-precise64:   stdout
-I, [2015-05-06T10:54:01.059516 #19507]  INFO -- default-precise64: [32m    should match /1.8/[0m
-I, [2015-05-06T10:54:01.059593 #19507]  INFO -- default-precise64: 
-I, [2015-05-06T10:54:01.059623 #19507]  INFO -- default-precise64: Finished in 0.45475 seconds (files took 0.41736 seconds to load)
-I, [2015-05-06T10:54:01.059649 #19507]  INFO -- default-precise64: [32m2 examples, 0 failures[0m
-I, [2015-05-06T10:54:01.059680 #19507]  INFO -- default-precise64: 
-I, [2015-05-06T10:54:01.164467 #19507]  INFO -- default-precise64: Finished verifying <default-precise64> (0m29.70s).

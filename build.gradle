@@ -26,7 +26,21 @@ task lint(type: Exec) {
     commandLine 'chef', 'exec', 'foodcritic', '.', '-f', 'any'
 }
 
-task preCommit(dependsOn: lint)
+task converge(type: Exec) {
+    commandLine 'chef', 'exec', 'kitchen', 'converge'
+}
+
+task verify(type: Exec) {
+    commandLine 'chef', 'exec', 'kitchen', 'verify'
+}
+
+task destroy(type: Exec) {
+    commandLine 'chef', 'exec', 'kitchen', 'destroy'
+}
+
+task preCommit(dependsOn: [lint, converge, verify])
+converge.mustRunAfter lint
+verify.mustRunAfter converge
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.3'
