@@ -1,10 +1,34 @@
-# skeleton-service-cookbook
-Cookbook for deploying the skeleton-service
+# Skeleton Service Cookbook
 
-[![Build Status](https://snap-ci.com/jenscobie/skeleton-service-cookbook/branch/master/build_image)](https://snap-ci.com/jenscobie/skeleton-service-cookbook/branch/master)
+> Cookbook for deploying the skeleton-service
 
-## Environment Setup
+## Requirements
 
-### Intellij
+* VirtualBox
+* Chef Development Kit
 
-To generate Intellij project files from the gradle build, simply run ```./go idea```
+## Installation
+
+1. Install requirements listed above
+2. ```./go idea``` to setup the Intellij project
+3. ```./go precommit``` to validate the project is setup correctly
+
+## Usage
+
+    ./go lint           Run foodcritic linting on cookbooks, with default rules
+    ./go converge       Spin up local VM and apply cookbooks
+    ./go verify         Run integration tests against local VM
+    ./go destroy        Destroy the local VM
+    ./go precommit      Run all validations before pushing code
+
+## Acceptance Tests
+
+This cookbook has a suite of acceptance tests covering the main functionality of the cookbook.
+
+If you modify the cookbook and want to verify your changes (and that you haven't broken anything else), run the tests.
+
+To run all validations before pushing code, run ```./go precommit```
+
+## Author
+
+Jen Scobie (jenscobie@gmail.com)
