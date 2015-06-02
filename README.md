@@ -4,8 +4,9 @@
 
 ## Requirements
 
-* VirtualBox
-* Chef Development Kit
+* [ChefDK](https://downloads.chef.io/chef-dk/)
+* [Vagrant](https://www.vagrantup.com/)
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 ## Installation
 

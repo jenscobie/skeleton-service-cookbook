@@ -4,4 +4,5 @@ maintainer_email 'jenscobie@gmail.com'
 description      'Cookbook for deploying the skeleton-service'
 version          '1.0.0'
 
+depends          'apt'
 depends          'java'

@@ -22,15 +22,19 @@ idea {
     }
 }
 
+task install(type: Exec) {
+    commandLine 'chef', 'exec', 'berks', 'install'
+}
+
 task lint(type: Exec) {
     commandLine 'chef', 'exec', 'foodcritic', '.', '-f', 'any'
 }
 
-task converge(type: Exec) {
+task converge(type: Exec, dependsOn: install) {
     commandLine 'chef', 'exec', 'kitchen', 'converge'
 }
 
-task verify(type: Exec) {
+task verify(type: Exec, dependsOn: converge) {
     commandLine 'chef', 'exec', 'kitchen', 'verify'
 }
 
@@ -38,9 +42,8 @@ task destroy(type: Exec) {
     commandLine 'chef', 'exec', 'kitchen', 'destroy'
 }
 
-task preCommit(dependsOn: [lint, converge, verify])
-converge.mustRunAfter lint
-verify.mustRunAfter converge
+task preCommit(dependsOn: [lint, verify])
+verify.mustRunAfter lint
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.3'

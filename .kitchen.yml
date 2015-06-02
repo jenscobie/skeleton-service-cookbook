@@ -6,10 +6,8 @@ provisioner:
   name: chef_solo
 
 platforms:
-  - name: precise64
-    driver_config:
-      box: default
-      box_url: http://files.vagrantup.com/precise64.box
+  - name: ubuntu-12.04
+  - name: centos-6.4
 
 suites:
   - name: default
