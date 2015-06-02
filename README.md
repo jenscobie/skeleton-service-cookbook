@@ -16,10 +16,11 @@
 
 ## Usage
 
-    ./go lint           Run foodcritic linting on cookbooks, with default rules
-    ./go converge       Spin up local VM and apply cookbooks
-    ./go verify         Run integration tests against local VM
-    ./go destroy        Destroy the local VM
+    ./go install        Install dependant cookbooks via Berkshelf
+    ./go lint           Run linting on cookbooks via Foodcritic, with default ruleset
+    ./go converge       Spin up local virtual machine and apply cookbooks
+    ./go verify         Run integration tests against the local virtual machine
+    ./go destroy        Destroy the local virtual machine
     ./go precommit      Run all validations before pushing code
 
 ## Acceptance Tests

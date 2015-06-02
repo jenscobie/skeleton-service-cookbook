@@ -22,27 +22,47 @@ idea {
     }
 }
 
+def TEST = 'Test'
+
 task install(type: Exec) {
+    group TEST
+    description 'Install dependant cookbooks via Berkshelf'
+
     commandLine 'chef', 'exec', 'berks', 'install'
 }
 
 task lint(type: Exec) {
+    group TEST
+    description 'Run linting on cookbooks via Foodcritic, with default ruleset'
+
     commandLine 'chef', 'exec', 'foodcritic', '.', '-f', 'any'
 }
 
 task converge(type: Exec, dependsOn: install) {
+    group TEST
+    description 'Spin up local virtual machine and apply cookbooks'
+
     commandLine 'chef', 'exec', 'kitchen', 'converge'
 }
 
 task verify(type: Exec, dependsOn: converge) {
+    group TEST
+    description 'Run integration tests against the local virtual machine'
+
     commandLine 'chef', 'exec', 'kitchen', 'verify'
 }
 
 task destroy(type: Exec) {
+    group TEST
+    description 'Destroy the local virtual machine'
+
     commandLine 'chef', 'exec', 'kitchen', 'destroy'
 }
 
-task preCommit(dependsOn: [lint, verify])
+task preCommit(dependsOn: [lint, verify]) {
+    group TEST
+    description 'Run all validations before pushing code'
+}
 verify.mustRunAfter lint
 
 task wrapper(type: Wrapper) {
